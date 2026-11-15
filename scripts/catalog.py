@@ -1,10 +1,11 @@
 import re
+import unicodedata
 from datetime import date
 from pathlib import Path
 from typing import Literal
 
 import yaml
-from pydantic import BaseModel, ConfigDict, HttpUrl
+from pydantic import BaseModel, ConfigDict, HttpUrl, field_validator
 
 ROOT = Path(__file__).resolve().parent.parent
 PAPERS_PATH = ROOT / "data" / "papers.yaml"
@@ -49,6 +50,20 @@ class Paper(BaseModel):
     data: HttpUrl | None = None
     demo: HttpUrl | None = None
     added: date
+
+    @field_validator("title", "venue")
+    @classmethod
+    def drop_hidden_characters(cls, text: str) -> str:
+        return without_hidden_characters(text)
+
+    @field_validator("authors")
+    @classmethod
+    def drop_hidden_characters_in_authors(cls, authors: list[str]) -> list[str]:
+        return [without_hidden_characters(author) for author in authors]
+
+
+def without_hidden_characters(text: str) -> str:
+    return "".join(ch for ch in text if unicodedata.category(ch) != "Cf").strip()
 
 
 CHECKLIST_ITEM = re.compile(r"^- \[(?P<mark>[ xX])\] .*`(?P<category>[^`]+)`.*<!-- (?P<key>.+?) -->\s*$")
