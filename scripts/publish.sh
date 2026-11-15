@@ -14,8 +14,8 @@ git pull -q --ff-only
 uv run scripts/apply.py
 uv run scripts/render.py
 
-if ! git diff --quiet data README.md docs; then
-  git add data README.md docs
+if ! git diff --quiet data README.md; then
+  git add data README.md
   git commit -q -m "Publish reviewed candidates"
   git push -q origin main
 fi

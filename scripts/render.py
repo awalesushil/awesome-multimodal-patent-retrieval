@@ -1,4 +1,4 @@
-import json
+import csv
 
 from catalog import CATEGORY_HEADINGS, PAPERS_PATH, ROOT, Paper, load_papers
 
@@ -8,7 +8,7 @@ HEADER = """# Awesome Multimodal Patent Retrieval [![Awesome](https://awesome.re
 
 Research, datasets and tools for searching and understanding patent drawings with images and text, from sketch-based prior-art search to vision-language models for patents.
 
-Search and filter all papers by section, year, code and data on the [browse page](https://awalesushil.github.io/awesome-multimodal-patent-retrieval/).
+All papers are also available as a searchable table in [data/papers.csv](data/papers.csv).
 """
 
 FOOTER = """## Footnotes
@@ -77,19 +77,26 @@ def render(papers: list[Paper]) -> str:
     return "\n".join([HEADER, "## Contents\n", contents + "\n", *sections, FOOTER])
 
 
-def browse_page(papers: list[Paper]) -> str:
-    entries = [paper.model_dump(mode="json", exclude_none=True) for paper in sorted(papers, key=lambda p: -p.year)]
-    template = (ROOT / "scripts" / "browse.html").read_text()
-    return template.replace("/*SECTIONS*/", json.dumps(CATEGORY_HEADINGS)).replace(
-        "/*PAPERS*/", json.dumps(entries, ensure_ascii=False).replace("</", "<\\/")
-    )
+CSV_COLUMNS = ["section", "title", "authors", "venue", "year", "url", "doi", "arxiv", "code", "data", "demo", "added"]
+
+
+def write_csv(papers: list[Paper]) -> None:
+    order = list(CATEGORY_HEADINGS)
+    rows = sorted(papers, key=lambda p: (order.index(p.category), -p.year, p.title.lower()))
+    with (ROOT / "data" / "papers.csv").open("w", newline="") as file:
+        writer = csv.DictWriter(file, fieldnames=CSV_COLUMNS)
+        writer.writeheader()
+        for paper in rows:
+            entry = paper.model_dump(mode="json")
+            entry["section"] = CATEGORY_HEADINGS[paper.category]
+            entry["authors"] = "; ".join(paper.authors)
+            writer.writerow({column: entry[column] or "" for column in CSV_COLUMNS})
 
 
 def main() -> None:
     papers = load_papers(PAPERS_PATH)
     (ROOT / "README.md").write_text(render(papers))
-    (ROOT / "docs").mkdir(exist_ok=True)
-    (ROOT / "docs" / "index.html").write_text(browse_page(papers))
+    write_csv(papers)
 
 
 if __name__ == "__main__":

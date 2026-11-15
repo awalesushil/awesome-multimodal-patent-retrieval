@@ -2,7 +2,7 @@
 
 Research, datasets and tools for searching and understanding patent drawings with images and text, from sketch-based prior-art search to vision-language models for patents.
 
-Search and filter all papers by section, year, code and data on the [browse page](https://awalesushil.github.io/awesome-multimodal-patent-retrieval/).
+All papers are also available as a searchable table in [data/papers.csv](data/papers.csv).
 
 ## Contents
 
