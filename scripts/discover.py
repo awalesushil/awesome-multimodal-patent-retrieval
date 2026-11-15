@@ -57,6 +57,10 @@ MEDICAL = re.compile(
 )
 CATEGORY_RULES: list[tuple[Category, re.Pattern[str]]] = [
     ("surveys", re.compile(r"\b(survey|review|overview)\b", re.IGNORECASE)),
+    (
+        "chemical-structures",
+        re.compile(r"\b(chemical|chemistry|markush|molecul\w*|smiles|ocsr|compounds?)\b", re.IGNORECASE),
+    ),
     ("datasets", re.compile(r"\b(dataset|benchmark|corpus|test collection)\b", re.IGNORECASE)),
     ("vlms", re.compile(r"\b(vision-language|vlms?|lvlms?|clip|large language|llms?|gpt\w*)\b", re.IGNORECASE)),
     (

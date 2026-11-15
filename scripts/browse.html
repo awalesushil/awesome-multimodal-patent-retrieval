@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Multimodal Patent Retrieval Papers</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1f2328; --muted: #59636e; --line: #d1d9e0; --soft: #f6f8fa; --accent: #0969da;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0d1117; --fg: #e6edf3; --muted: #9198a1; --line: #30363d; --soft: #161b22; --accent: #4493f8; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 1100px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  p.lead { color: var(--muted); margin: 0 0 20px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .filters { display: grid; grid-template-columns: 2fr 1.4fr 0.7fr 0.7fr; gap: 8px; margin-bottom: 8px; }
+  .toggles { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; margin-bottom: 16px; color: var(--muted); }
+  input, select { width: 100%; padding: 8px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); font: inherit; }
+  .toggles input { width: auto; margin-right: 6px; }
+  .count { margin-left: auto; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+  td.title { font-weight: 600; }
+  td.meta { color: var(--muted); white-space: nowrap; }
+  .tag { display: inline-block; font-size: 0.75rem; padding: 1px 8px; border-radius: 999px; background: var(--soft); border: 1px solid var(--line); color: var(--muted); margin-top: 4px; font-weight: 400; }
+  .links a { margin-right: 8px; white-space: nowrap; }
+  @media (max-width: 720px) {
+    .filters { grid-template-columns: 1fr 1fr; }
+    .filters input[type=search] { grid-column: 1 / -1; }
+    table, tbody { display: block; }
+    thead { display: none; }
+    tr { display: block; padding: 10px 0; border-bottom: 1px solid var(--line); }
+    td { display: block; border: 0; padding: 2px 0; overflow-wrap: anywhere; }
+    td.meta { display: inline; white-space: normal; margin-right: 8px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Multimodal Patent Retrieval Papers</h1>
+  <p class="lead">Search and filter the <a href="https://github.com/awalesushil/awesome-multimodal-patent-retrieval">Awesome Multimodal Patent Retrieval</a> list.</p>
+  <div class="filters">
+    <input type="search" id="q" placeholder="Search title, authors, venue">
+    <select id="section"><option value="">All sections</option></select>
+    <input type="number" id="from" placeholder="From year">
+    <input type="number" id="to" placeholder="To year">
+  </div>
+  <div class="toggles">
+    <label><input type="checkbox" id="code">Has code</label>
+    <label><input type="checkbox" id="data">Has data</label>
+    <span class="count" id="count"></span>
+  </div>
+  <table>
+    <thead><tr><th>Paper</th><th>Venue</th><th>Year</th><th>Links</th></tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+</main>
+<script>
+const SECTIONS = /*SECTIONS*/;
+const PAPERS = /*PAPERS*/;
+
+const $ = (id) => document.getElementById(id);
+const section = $("section");
+for (const [slug, heading] of Object.entries(SECTIONS)) {
+  section.append(new Option(heading, slug));
+}
+
+function cell(text, className) {
+  const td = document.createElement("td");
+  if (className) td.className = className;
+  td.textContent = text;
+  return td;
+}
+
+function link(label, href) {
+  const a = document.createElement("a");
+  a.href = href;
+  a.textContent = label;
+  return a;
+}
+
+function render() {
+  const words = $("q").value.toLowerCase().split(/\s+/).filter(Boolean);
+  const from = Number($("from").value) || 0;
+  const to = Number($("to").value) || 9999;
+  const shown = PAPERS.filter((p) => {
+    const text = `${p.title} ${p.authors.join(" ")} ${p.venue}`.toLowerCase();
+    return words.every((w) => text.includes(w))
+      && (!section.value || p.category === section.value)
+      && p.year >= from && p.year <= to
+      && (!$("code").checked || p.code)
+      && (!$("data").checked || p.data);
+  });
+
+  const rows = shown.map((p) => {
+    const tr = document.createElement("tr");
+    const title = cell(p.title, "title");
+    const authors = document.createElement("div");
+    authors.className = "meta";
+    authors.style.fontWeight = "400";
+    authors.textContent = p.authors.length > 3 ? `${p.authors[0]} et al.` : p.authors.join(", ");
+    const tag = document.createElement("span");
+    tag.className = "tag";
+    tag.textContent = SECTIONS[p.category];
+    title.append(authors, tag);
+
+    const links = document.createElement("td");
+    links.className = "links";
+    links.append(link("Paper", p.url));
+    for (const [label, key] of [["Code", "code"], ["Data", "data"], ["Demo", "demo"]]) {
+      if (p[key]) links.append(link(label, p[key]));
+    }
+    tr.append(title, cell(p.venue, "meta"), cell(String(p.year), "meta"), links);
+    return tr;
+  });
+  $("rows").replaceChildren(...rows);
+  $("count").textContent = `${shown.length} of ${PAPERS.length} papers`;
+}
+
+for (const id of ["q", "section", "from", "to", "code", "data"]) {
+  $(id).addEventListener("input", render);
+}
+render();
+</script>
+</body>
+</html>

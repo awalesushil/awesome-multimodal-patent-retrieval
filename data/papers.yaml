@@ -9,6 +9,7 @@
   category: surveys
   url: https://doi.org/10.18653/v1/2025.acl-long.419
   doi: 10.18653/v1/2025.acl-long.419
+  code: https://github.com/AI4Patents/AIPatent_Survey
   added: '2026-11-14'
 - title: Intermediate Domain Alignment and Morphology Analogy for Patent-Product Image Retrieval
   authors:
@@ -59,6 +60,7 @@
   category: image-retrieval
   url: https://doi.org/10.1109/WACV51458.2022.00063
   doi: 10.1109/wacv51458.2022.00063
+  code: https://github.com/GoFigure-LANL/DeepPatent-dataset
   added: '2026-11-14'
 - title: Learning Spatial Relationships between Samples of Patent Image Shapes
   authors:
@@ -89,6 +91,7 @@
   category: figure-understanding
   url: https://doi.org/10.1007/978-3-031-88711-6_2
   doi: 10.1007/978-3-031-88711-6_2
+  code: https://github.com/TIBHannover/patent-figure-classification
   added: '2026-11-14'
 - title: Classification of Visualization Types and Perspectives in Patents
   authors:
@@ -100,6 +103,7 @@
   category: figure-understanding
   url: https://doi.org/10.1007/978-3-031-43849-3_16
   doi: 10.1007/978-3-031-43849-3_16
+  code: https://github.com/TIBHannover/PatentImageClassification
   added: '2026-11-14'
 - title: 'PatFig: Generating Short and Long Captions for Patent Figures'
   authors:
@@ -111,6 +115,7 @@
   category: figure-understanding
   url: https://doi.org/10.1109/ICCVW60793.2023.00305
   doi: 10.1109/iccvw60793.2023.00305
+  data: https://huggingface.co/datasets/danaaubakirova/patfig
   added: '2026-11-14'
 - title: Automatic Generation of Explanatory Text from Flowchart Images in Patents
   authors:
@@ -167,6 +172,8 @@
   year: 2024
   category: datasets
   url: https://papers.nips.cc/paper_files/paper/2024/hash/e3301977b92f28e32639ec99eb08f4a1-Abstract-Datasets_and_Benchmarks_Track.html
+  code: https://github.com/AI4Patents/IMPACT
+  data: https://huggingface.co/datasets/AI4Patents/IMPACT
   added: '2026-11-14'
 - title: 'PDTW150K: A Dataset for Patent Drawing Retrieval'
   authors:
@@ -179,6 +186,7 @@
   category: datasets
   url: https://doi.org/10.1007/978-3-031-56435-2_5
   doi: 10.1007/978-3-031-56435-2_5
+  data: https://github.com/ncyuMARSLab/PDTW150K
   added: '2026-11-14'
 - title: 'Exploring Patents Visually: An Interactive Search System for Multimodal Patent Image Search and Interpretation'
   authors:
@@ -190,6 +198,8 @@
   year: 2025
   category: tools
   url: https://ceur-ws.org/Vol-4062/paper8.pdf
+  code: https://github.com/TIBHannover/iPatent
+  demo: https://service.tib.eu/ipatent/
   added: '2026-11-14'
 - title: Relational skeletons for retrieval in patent drawings
   authors:
@@ -269,6 +279,8 @@
   category: datasets
   url: https://doi.org/10.1038/s41597-026-07829-5
   doi: 10.1038/s41597-026-07829-5
+  code: https://github.com/wyy032/PatentOCR
+  data: https://huggingface.co/datasets/Yara032/PatentOCR
   added: '2026-11-15'
 - title: Using Patent Drawings to Differentiate Stock Return Rate of China Listed Companies. A Study on China Patent Species of Invention Grant
   authors:
@@ -314,6 +326,7 @@
   category: image-retrieval
   url: https://doi.org/10.1016/j.wpi.2023.102217
   doi: 10.1016/j.wpi.2023.102217
+  code: https://github.com/L4Clippers/Patent-Image-Retrieval-Transformer-DML
   added: '2026-11-15'
 - title: Elicitation of requirements for innovative visual patent retrieval based on interviews with experts
   authors:
@@ -411,6 +424,7 @@
   category: datasets
   url: https://doi.org/10.1145/3799682.3839878
   doi: 10.1145/3799682.3839878
+  code: https://github.com/ds-jrg/PT2PR
   added: '2026-11-15'
 - title: '"Bigger Data" Visualization to Visual Analytics: a path to Innovation. "Happening, definitely! Misleading, possibly?" A review of some examples applicable to IP Discovery'
   authors:
@@ -950,7 +964,7 @@
   - Sergey Alekseevich Fomenkov
   venue: International Russian Smart Industry Conference (SmartIndustryCon)
   year: 2024
-  category: image-retrieval
+  category: chemical-structures
   url: https://doi.org/10.1109/smartindustrycon61328.2024.10515580
   doi: 10.1109/smartindustrycon61328.2024.10515580
   added: '2026-11-15'
@@ -1190,7 +1204,7 @@
   - Feng-Chi Chen
   venue: Journal of Cheminformatics
   year: 2026
-  category: image-retrieval
+  category: chemical-structures
   url: https://doi.org/10.1186/s13321-026-01301-7
   doi: 10.1186/s13321-026-01301-7
   added: '2026-11-15'
@@ -1205,7 +1219,7 @@
   - Kang Xu
   venue: arXiv
   year: 2026
-  category: figure-understanding
+  category: chemical-structures
   url: https://doi.org/10.48550/arxiv.2608.09100
   doi: 10.48550/arxiv.2608.09100
   arxiv: '2608.09100'
@@ -1244,7 +1258,7 @@
   - Honglin Li
   venue: Briefings Bioinform.
   year: 2022
-  category: multimodal-search
+  category: chemical-structures
   url: https://doi.org/10.1093/bib/bbac461
   doi: 10.1093/bib/bbac461
   added: '2026-11-15'
@@ -1262,7 +1276,7 @@
   - Carina Haupt
   venue: Fraunhofer-Publica (Fraunhofer-Gesellschaft)
   year: 2009
-  category: image-retrieval
+  category: chemical-structures
   url: https://doi.org/10.24406/publica-fhg-278289
   doi: 10.24406/publica-fhg-278289
   added: '2026-11-15'
@@ -1275,7 +1289,7 @@
   - Patrik L. Andersson
   venue: Chemical Research in Toxicology
   year: 2026
-  category: datasets
+  category: chemical-structures
   url: https://doi.org/10.1021/acs.chemrestox.6c00057
   doi: 10.1021/acs.chemrestox.6c00057
   added: '2026-11-15'
@@ -1294,10 +1308,11 @@
   - Kaicheng Yu
   venue: arXiv
   year: 2026
-  category: datasets
+  category: chemical-structures
   url: https://doi.org/10.48550/arxiv.2610.00700
   doi: 10.48550/arxiv.2610.00700
   arxiv: '2610.00700'
+  code: https://github.com/CrisYing/R-GROUNDBENCH
   added: '2026-11-15'
 - title: 'MolParser: End-to-End Visual Recognition of Molecule Structures in the Wild'
   authors:
@@ -1313,10 +1328,11 @@
   - Guolin Ke
   venue: ICCV
   year: 2025
-  category: figure-understanding
+  category: chemical-structures
   url: https://doi.org/10.1109/iccv51701.2025.02274
   doi: 10.1109/iccv51701.2025.02274
   arxiv: '2411.11098'
+  code: https://github.com/dptech-corp/MolParser
   added: '2026-11-15'
 - title: Ground-truthed dataset of chemical structure images in Japanese published patent applications
   authors:
@@ -1325,7 +1341,7 @@
   - Masakazu Suzuki
   venue: Document Analysis Systems
   year: 2010
-  category: datasets
+  category: chemical-structures
   url: https://doi.org/10.1145/1815330.1815389
   doi: 10.1145/1815330.1815389
   added: '2026-11-15'
@@ -1338,9 +1354,10 @@
   - Peter Staar
   venue: Nature Communications
   year: 2024
-  category: datasets
+  category: chemical-structures
   url: https://doi.org/10.1038/s41467-024-50779-y
   doi: 10.1038/s41467-024-50779-y
+  code: https://github.com/DS4SD/PatCID
   added: '2026-11-15'
 - title: 'Chemical Structure Recognition (CSR) System: Automatic Analysis of 2D Chemical Structures in Document Images'
   authors:
@@ -1349,7 +1366,7 @@
   - Andreas R. Dengel
   venue: ICDAR
   year: 2019
-  category: figure-understanding
+  category: chemical-structures
   url: https://doi.org/10.1109/icdar.2019.00-41
   doi: 10.1109/icdar.2019.00-41
   added: '2026-11-15'
@@ -1362,7 +1379,7 @@
   - Stephen Boyer
   venue: ChemRxiv
   year: 2023
-  category: figure-understanding
+  category: chemical-structures
   url: https://doi.org/10.26434/chemrxiv-2023-d6kmg
   doi: 10.26434/chemrxiv-2023-d6kmg
   added: '2026-11-15'
@@ -1375,7 +1392,7 @@
   - Stephen Boyer
   venue: ChemRxiv
   year: 2024
-  category: figure-understanding
+  category: chemical-structures
   url: https://doi.org/10.26434/chemrxiv-2023-d6kmg-v2
   doi: 10.26434/chemrxiv-2023-d6kmg-v2
   added: '2026-11-15'
@@ -1394,9 +1411,10 @@
   - Guang Yang
   venue: J. Cheminformatics
   year: 2024
-  category: figure-understanding
+  category: chemical-structures
   url: https://doi.org/10.1186/s13321-024-00823-2
   doi: 10.1186/s13321-024-00823-2
+  code: https://github.com/mindrank-ai/ChemSAM
   added: '2026-11-15'
 - title: DECIMER V2 Benchmark Datasets
   authors:
@@ -1407,7 +1425,7 @@
   - Christoph Steinbeck
   venue: Zenodo (CERN European Organization for Nuclear Research)
   year: 2023
-  category: datasets
+  category: chemical-structures
   url: https://doi.org/10.5281/zenodo.8139327
   doi: 10.5281/zenodo.8139327
   added: '2026-11-15'
@@ -1423,6 +1441,7 @@
   url: https://doi.org/10.1609/aaai.v39i19.34257
   doi: 10.1609/aaai.v39i19.34257
   arxiv: '2501.15074'
+  code: https://github.com/vl2g/PatentLMM
   added: '2026-11-15'
 - title: Evaluating Flowchart Recognition for Patent Retrieval.
   authors:
@@ -1471,4 +1490,21 @@
   url: https://doi.org/10.1007/s10032-016-0260-8
   doi: 10.1007/s10032-016-0260-8
   arxiv: '1410.6751'
+  added: '2026-11-15'
+- title: 'DeepPatent2: A Large-Scale Benchmarking Corpus for Technical Drawing Understanding'
+  authors:
+  - Kehinde Ajayi
+  - Xin Wei
+  - Martin Gryder
+  - Winston Shields
+  - Jian Wu
+  - Shawn M. Jones
+  - Michal Kucer
+  - Diane Oyen
+  venue: Scientific Data
+  year: 2023
+  category: datasets
+  url: https://doi.org/10.1038/s41597-023-02653-7
+  doi: 10.1038/s41597-023-02653-7
+  data: https://doi.org/10.7910/DVN/UG4SBD
   added: '2026-11-15'

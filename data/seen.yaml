@@ -29,6 +29,7 @@
 - decimer v2 benchmark datasets
 - deep learning for patent image analysis
 - deeppatent large scale patent drawing recognition and retrieval
+- deeppatent2 a large scale benchmarking corpus for technical drawing understanding
 - density refine patent image retrieval by density based region extraction and feature fusion
 - deriving design feature vectors for patent images using convolutional neural networks
 - design of appearance patent retrieval system based on mapreduce cluster framework

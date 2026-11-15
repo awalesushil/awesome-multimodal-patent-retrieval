@@ -1,10 +1,14 @@
+import json
+
 from catalog import CATEGORY_HEADINGS, PAPERS_PATH, ROOT, Paper, load_papers
+
+RECENT_FROM = 2015
 
 HEADER = """# Awesome Multimodal Patent Retrieval [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 Research, datasets and tools for searching and understanding patent drawings with images and text, from sketch-based prior-art search to vision-language models for patents.
 
-> Work in progress: the list is being seeded and will grow over the coming weeks. Suggestions are welcome.
+Search and filter all papers by section, year, code and data on the [browse page](https://awalesushil.github.io/awesome-multimodal-patent-retrieval/).
 """
 
 FOOTER = """## Footnotes
@@ -51,19 +55,41 @@ def table(papers: list[Paper]) -> str:
     return "\n".join(lines)
 
 
-def render(papers: list[Paper]) -> str:
-    contents = "\n".join(f"- [{heading}](#{anchor(heading)})" for heading in CATEGORY_HEADINGS.values())
-    sections = []
-    for category, heading in CATEGORY_HEADINGS.items():
-        in_category = [paper for paper in papers if paper.category == category]
-        body = table(in_category) if in_category else "No entries yet."
-        sections.append(f"## {heading}\n\n{body}\n")
+def section_body(papers: list[Paper]) -> str:
+    recent = [paper for paper in papers if paper.year >= RECENT_FROM]
+    older = [paper for paper in papers if paper.year < RECENT_FROM]
+    parts = [table(recent)] if recent else []
+    if older:
+        summary = f"Earlier work, before {RECENT_FROM} ({len(older)} papers)"
+        parts.append(f"<details>\n<summary>{summary}</summary>\n\n{table(older)}\n\n</details>")
+    return "\n\n".join(parts) if parts else "No entries yet."
 
+
+def render(papers: list[Paper]) -> str:
+    by_category = {category: [p for p in papers if p.category == category] for category in CATEGORY_HEADINGS}
+    contents = "\n".join(
+        f"- [{heading}](#{anchor(heading)}) ({len(by_category[category])})"
+        for category, heading in CATEGORY_HEADINGS.items()
+    )
+    sections = [
+        f"## {heading}\n\n{section_body(by_category[category])}\n" for category, heading in CATEGORY_HEADINGS.items()
+    ]
     return "\n".join([HEADER, "## Contents\n", contents + "\n", *sections, FOOTER])
 
 
+def browse_page(papers: list[Paper]) -> str:
+    entries = [paper.model_dump(mode="json", exclude_none=True) for paper in sorted(papers, key=lambda p: -p.year)]
+    template = (ROOT / "scripts" / "browse.html").read_text()
+    return template.replace("/*SECTIONS*/", json.dumps(CATEGORY_HEADINGS)).replace(
+        "/*PAPERS*/", json.dumps(entries, ensure_ascii=False).replace("</", "<\\/")
+    )
+
+
 def main() -> None:
-    (ROOT / "README.md").write_text(render(load_papers(PAPERS_PATH)))
+    papers = load_papers(PAPERS_PATH)
+    (ROOT / "README.md").write_text(render(papers))
+    (ROOT / "docs").mkdir(exist_ok=True)
+    (ROOT / "docs" / "index.html").write_text(browse_page(papers))
 
 
 if __name__ == "__main__":
