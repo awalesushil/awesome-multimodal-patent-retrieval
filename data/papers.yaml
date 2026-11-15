@@ -1,0 +1,1474 @@
+- title: 'A Survey on Patent Analysis: From NLP to Multimodal AI'
+  authors:
+  - Homaira Huda Shomee
+  - Zhu Wang
+  - Sathya N. Ravi
+  - Sourav Medya
+  venue: ACL
+  year: 2025
+  category: surveys
+  url: https://doi.org/10.18653/v1/2025.acl-long.419
+  doi: 10.18653/v1/2025.acl-long.419
+  added: '2026-11-14'
+- title: Intermediate Domain Alignment and Morphology Analogy for Patent-Product Image Retrieval
+  authors:
+  - Haifan Gong
+  - Xuanye Zhang
+  - Ruifei Zhang
+  - Yun Su
+  - Zhuo Li
+  - Yuhao Du
+  - Anningzhe Gao
+  - Xiang Wan
+  - Haofeng Li
+  venue: NeurIPS
+  year: 2025
+  category: image-retrieval
+  url: https://papers.nips.cc/paper_files/paper/2025/hash/154743e7e9688cf77db5ee75807bda82-Abstract-Conference.html
+  added: '2026-11-14'
+- title: Hierarchical Multi-Positive Contrastive Learning for Patent Image Retrieval
+  authors:
+  - Kshitij Kavimandan
+  - Angelos Nalmpantis
+  - Emma Beauxis-Aussalet
+  - Robert-Jan Sips
+  venue: PatentSemTech
+  year: 2025
+  category: image-retrieval
+  url: https://ceur-ws.org/Vol-4062/paper7.pdf
+  added: '2026-11-14'
+- title: Large Language Model Informed Patent Image Retrieval
+  authors:
+  - Hao-Cheng Lo
+  - Jung-Mei Chu
+  - Jieh Hsiang
+  - Chun-Chieh Cho
+  venue: PatentSemTech
+  year: 2024
+  category: image-retrieval
+  url: https://ceur-ws.org/Vol-3775/paper11.pdf
+  added: '2026-11-14'
+- title: 'DeepPatent: Large scale patent drawing recognition and retrieval'
+  authors:
+  - Michal Kucer
+  - Diane Oyen
+  - Juan Castorena
+  - Jian Wu
+  venue: WACV
+  year: 2022
+  category: image-retrieval
+  url: https://doi.org/10.1109/WACV51458.2022.00063
+  doi: 10.1109/wacv51458.2022.00063
+  added: '2026-11-14'
+- title: Learning Spatial Relationships between Samples of Patent Image Shapes
+  authors:
+  - Juan Castorena
+  - Manish Bhattarai
+  - Diane Oyen
+  venue: CVPR Workshops
+  year: 2020
+  category: image-retrieval
+  url: https://openaccess.thecvf.com/content_CVPRW_2020/html/w8/Castorena_Learning_Spatial_Relationships_Between_Samples_of_Patent_Image_Shapes_CVPRW_2020_paper.html
+  added: '2026-11-14'
+- title: Integration of Images into the Patent Retrieval Process
+  authors:
+  - Wiebke Thode
+  venue: ECIR
+  year: 2019
+  category: multimodal-search
+  url: https://doi.org/10.1007/978-3-030-15719-7_49
+  doi: 10.1007/978-3-030-15719-7_49
+  added: '2026-11-14'
+- title: Patent Figure Classification Using Large Vision-Language Models
+  authors:
+  - Sushil Awale
+  - Eric Müller-Budack
+  - Ralph Ewerth
+  venue: ECIR
+  year: 2025
+  category: figure-understanding
+  url: https://doi.org/10.1007/978-3-031-88711-6_2
+  doi: 10.1007/978-3-031-88711-6_2
+  added: '2026-11-14'
+- title: Classification of Visualization Types and Perspectives in Patents
+  authors:
+  - Junaid Ahmed Ghauri
+  - Eric Müller-Budack
+  - Ralph Ewerth
+  venue: TPDL
+  year: 2023
+  category: figure-understanding
+  url: https://doi.org/10.1007/978-3-031-43849-3_16
+  doi: 10.1007/978-3-031-43849-3_16
+  added: '2026-11-14'
+- title: 'PatFig: Generating Short and Long Captions for Patent Figures'
+  authors:
+  - Dana Aubakirova
+  - Kim Gerdes
+  - Lufei Liu
+  venue: ICCV Workshops
+  year: 2023
+  category: figure-understanding
+  url: https://doi.org/10.1109/ICCVW60793.2023.00305
+  doi: 10.1109/iccvw60793.2023.00305
+  added: '2026-11-14'
+- title: Automatic Generation of Explanatory Text from Flowchart Images in Patents
+  authors:
+  - Hidetsugu Nanba
+  - Shohei Kubo
+  - Satoshi Fukuda
+  venue: PatentSemTech
+  year: 2023
+  category: figure-understanding
+  url: https://ceur-ws.org/Vol-3604/paper4.pdf
+  added: '2026-11-14'
+- title: Flowchart recognition for non-textual information retrieval in patent search
+  authors:
+  - Marçal Rusiñol
+  - Lluís-Pere de las Heras
+  - Oriol Ramos Terrades
+  venue: Information Retrieval Journal
+  year: 2014
+  category: figure-understanding
+  url: https://doi.org/10.1007/s10791-013-9234-3
+  doi: 10.1007/s10791-013-9234-3
+  added: '2026-11-14'
+- title: Classifying Patent Images
+  authors:
+  - Roland Mörzinger
+  - Andras Horti
+  - Georg Thallinger
+  - Naeem Bhatti
+  - Allan Hanbury
+  venue: CLEF-IP
+  year: 2011
+  category: figure-understanding
+  url: https://ceur-ws.org/Vol-1177/CLEF2011wn-CLEF-IP-MorzingerEt2011.pdf
+  added: '2026-11-14'
+- title: 'DesignCLIP: Multimodal Learning with CLIP for Design Patent Understanding'
+  authors:
+  - Zhu Wang
+  - Homaira Huda Shomee
+  - Sathya N. Ravi
+  - Sourav Medya
+  venue: Findings of EMNLP
+  year: 2025
+  category: vlms
+  url: https://doi.org/10.18653/v1/2025.findings-emnlp.553
+  doi: 10.18653/v1/2025.findings-emnlp.553
+  added: '2026-11-14'
+- title: 'IMPACT: A Large-scale Integrated Multimodal Patent Analysis and Creation Dataset for Design Patents'
+  authors:
+  - Homaira Huda Shomee
+  - Zhu Wang
+  - Sathya N. Ravi
+  - Sourav Medya
+  venue: NeurIPS Datasets and Benchmarks
+  year: 2024
+  category: datasets
+  url: https://papers.nips.cc/paper_files/paper/2024/hash/e3301977b92f28e32639ec99eb08f4a1-Abstract-Datasets_and_Benchmarks_Track.html
+  added: '2026-11-14'
+- title: 'PDTW150K: A Dataset for Patent Drawing Retrieval'
+  authors:
+  - Chan-Ming Hsu
+  - Tse-Hung Lin
+  - Yu-Hsien Chen
+  - Chih-Yi Chiu
+  venue: MMM
+  year: 2024
+  category: datasets
+  url: https://doi.org/10.1007/978-3-031-56435-2_5
+  doi: 10.1007/978-3-031-56435-2_5
+  added: '2026-11-14'
+- title: 'Exploring Patents Visually: An Interactive Search System for Multimodal Patent Image Search and Interpretation'
+  authors:
+  - Sushil Awale
+  - Eric Müller-Budack
+  - Rahim Delaviz
+  - Ralph Ewerth
+  venue: PatentSemTech
+  year: 2025
+  category: tools
+  url: https://ceur-ws.org/Vol-4062/paper8.pdf
+  added: '2026-11-14'
+- title: Relational skeletons for retrieval in patent drawings
+  authors:
+  - Benoît Huet
+  - Nergiz Kern
+  - G. Guarascio
+  - Bernard Mérialdo
+  venue: ICIP
+  year: 2002
+  category: image-retrieval
+  url: https://doi.org/10.1109/icip.2001.958599
+  doi: 10.1109/icip.2001.958599
+  added: '2026-11-15'
+- title: 'Comparing SIFT and SURF : Performance on patent drawings'
+  authors:
+  - Christian Lindqvist
+  venue: KTH Publication Database DiVA (KTH Royal Institute of Technology)
+  year: 2017
+  category: image-retrieval
+  url: http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-340402
+  added: '2026-11-15'
+- title: Textual summarisation of flowcharts in patent drawings for CLEF-IP 2012
+  authors:
+  - A. H. C. Thean
+  - Jean‐Marc Deltorn
+  - Patrice Lopez
+  - Laurent Romary
+  venue: HAL
+  year: 2012
+  category: figure-understanding
+  url: https://inria.hal.science/hal-00728779
+  added: '2026-11-15'
+- title: Granulometry based detection of junction and end points in patent drawings
+  authors:
+  - Naeem Bhatti
+  - Allan Hanbury
+  venue: ISPA
+  year: 2011
+  category: image-retrieval
+  url: http://ieeexplore.ieee.org/iel5/6036253/6046561/06046624.pdf
+  added: '2026-11-15'
+- title: PATDPA, an online searchable patent database with display of patent drawing
+  authors:
+  - Alfred Wittmann
+  - Gerd Tittlbach
+  venue: World Patent Information
+  year: 1986
+  category: image-retrieval
+  url: https://doi.org/10.1016/0172-2190(86)90134-1
+  doi: 10.1016/0172-2190(86)90134-1
+  added: '2026-11-15'
+- title: 'MFFPN: an Anchor-Free Method for Patent Drawing Object Detection'
+  authors:
+  - Yu‐Hsien Chen
+  - Chih‐Yi Chiu
+  venue: MVA
+  year: 2023
+  category: image-retrieval
+  url: https://doi.org/10.23919/mva57639.2023.10216017
+  doi: 10.23919/mva57639.2023.10216017
+  added: '2026-11-15'
+- title: Figure detection and part label extraction from patent drawing images
+  authors:
+  - Jaco Cronje
+  venue: Unknown venue
+  year: 2012
+  category: image-retrieval
+  url: http://researchspace.csir.co.za/dspace/bitstream/10204/6464/1/Cronje1_2012.pdf
+  added: '2026-11-15'
+- title: 'PatentOCR: A Benchmark for Fine-Grained Detection and OCR of Component Identifiers in Patent Drawings'
+  authors:
+  - Yue Wang
+  - Yihui Qiu
+  - Yuehua Chen
+  venue: Scientific Data
+  year: 2026
+  category: datasets
+  url: https://doi.org/10.1038/s41597-026-07829-5
+  doi: 10.1038/s41597-026-07829-5
+  added: '2026-11-15'
+- title: Using Patent Drawings to Differentiate Stock Return Rate of China Listed Companies. A Study on China Patent Species of Invention Grant
+  authors:
+  - Chin‐Yi Chen
+  - Ching-Lin Chu
+  - Hui‐Chung Che
+  - Hong-Wen Tsai
+  - Bo Bai
+  venue: Advances in management and applied economics
+  year: 2022
+  category: image-retrieval
+  url: https://doi.org/10.47260/amae/1234
+  doi: 10.47260/amae/1234
+  added: '2026-11-15'
+- title: Using Patent Drawings to Differentiate Stock Return Rate of China Listed Companies. A Study on China Patent Species of Utility Model Grant
+  authors:
+  - Chin‐Yi Chen
+  - Ching-Lin Chu
+  - Hui‐Chung Che
+  - Hong-Wen Tsai
+  venue: Advances in management and applied economics
+  year: 2022
+  category: image-retrieval
+  url: https://doi.org/10.47260/amae/1241
+  doi: 10.47260/amae/1241
+  added: '2026-11-15'
+- title: Industry Difference on Patent Drawing’s Capability for Differentiating Stock Rates of Return of Chinese Listed Companies in Non-Manufacturing Industry Sectors -- An Explore into Invention Publication Patents and Utility Model Grant Patents
+  authors:
+  - Hong-Wen Tsai
+  - Hui‐Chung Che
+  venue: Unknown venue
+  year: 2022
+  category: image-retrieval
+  url: https://doi.org/10.47260/bae/1012
+  doi: 10.47260/bae/1012
+  added: '2026-11-15'
+- title: Patent image retrieval using transformer-based deep metric learning
+  authors:
+  - Kotaro Higuchi
+  - ‪Keiji Yanai‬
+  venue: World Patent Information
+  year: 2023
+  category: image-retrieval
+  url: https://doi.org/10.1016/j.wpi.2023.102217
+  doi: 10.1016/j.wpi.2023.102217
+  added: '2026-11-15'
+- title: Elicitation of requirements for innovative visual patent retrieval based on interviews with experts
+  authors:
+  - Johanna Zellmer
+  - Christa Womser‐Hacker
+  venue: Inf. Res.
+  year: 2022
+  category: image-retrieval
+  url: https://doi.org/10.47989/irisic2234
+  doi: 10.47989/irisic2234
+  added: '2026-11-15'
+- title: 'Patent image retrieval: a survey'
+  authors:
+  - Allan Hanbury
+  - Naeem Bhatti
+  - Mihai Lupu
+  - Roland Mörzinger
+  venue: PaIR@CIKM
+  year: 2011
+  category: surveys
+  url: https://doi.org/10.1145/2064975.2064979
+  doi: 10.1145/2064975.2064979
+  added: '2026-11-15'
+- title: Enhancing Patent Document Similarity Evaluation and Classification Precision Through a Multimodal AI Approach
+  authors:
+  - Hyuna Kim
+  - Gwang-Yong Gim
+  venue: Applied Sciences
+  year: 2025
+  category: figure-understanding
+  url: https://doi.org/10.3390/app15179254
+  doi: 10.3390/app15179254
+  added: '2026-11-15'
+- title: 'AI-Generated Figures for Patent Applications: Requirements, Challenges, and a Domain-Specific Approach'
+  authors:
+  - Davie Chen
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+  year: 2026
+  category: image-retrieval
+  url: https://doi.org/10.5281/zenodo.19271553
+  doi: 10.5281/zenodo.19271553
+  added: '2026-11-15'
+- title: A data-driven approach to studying dominant designs through patent images
+  authors:
+  - Marco Consoloni
+  - Denny Meini
+  - Gabriele Marino
+  - Luciano Socci
+  - Vito Giordano
+  - Gualtiero Fantoni
+  venue: Proceedings of the Design Society
+  year: 2026
+  category: image-retrieval
+  url: https://doi.org/10.1017/pds.2026.10582
+  doi: 10.1017/pds.2026.10582
+  added: '2026-11-15'
+- title: 'Image search in patents: a review'
+  authors:
+  - Naeem Bhatti
+  - Allan Hanbury
+  venue: Int. J. Document Anal. Recognit.
+  year: 2012
+  category: surveys
+  url: https://doi.org/10.1007/s10032-012-0197-5
+  doi: 10.1007/s10032-012-0197-5
+  added: '2026-11-15'
+- title: Learning Efficient Representations for Image-Based Patent Retrieval
+  authors:
+  - Hongsong Wang
+  - Yuqi Zhang
+  venue: PRCV
+  year: 2023
+  category: image-retrieval
+  url: https://doi.org/10.1007/978-981-99-8540-1_2
+  doi: 10.1007/978-981-99-8540-1_2
+  arxiv: '2308.13749'
+  added: '2026-11-15'
+- title: Caption-guided patent image segmentation
+  authors:
+  - Urszula Markowska–Kaczmar
+  - Jerzy Sas
+  - Anastasia Moumtzidou
+  venue: FedCSIS
+  year: 2016
+  category: figure-understanding
+  url: https://doi.org/10.15439/2016f541
+  doi: 10.15439/2016f541
+  added: '2026-11-15'
+- title: 'PT2PR: A Benchmark for Multimodal Patent-to-Product Retrieval'
+  authors:
+  - Lia Shahnazaryan
+  - Stefan Heindorf
+  venue: ACM International Conference on Information and Knowledge Management (CIKM)
+  year: 2026
+  category: datasets
+  url: https://doi.org/10.1145/3799682.3839878
+  doi: 10.1145/3799682.3839878
+  added: '2026-11-15'
+- title: '"Bigger Data" Visualization to Visual Analytics: a path to Innovation. "Happening, definitely! Misleading, possibly?" A review of some examples applicable to IP Discovery'
+  authors:
+  - Damien Lapray
+  - Serge Rebouillat
+  venue: International journal of innovation and applied studies
+  year: 2014
+  category: surveys
+  url: http://www.issr-journals.org/links/papers.php?journal=ijias&application=pdf&article=IJIAS-14-181-06
+  added: '2026-11-15'
+- title: Text Detection in Natural Scenes and Technical Diagrams with Convolutional Feature Learning and Cascaded Classification
+  authors:
+  - Siyu Zhu
+  venue: RIT Scholar Works (Rochester Institute of Technology)
+  year: 2016
+  category: figure-understanding
+  url: https://repository.rit.edu/theses/9037
+  added: '2026-11-15'
+- title: Concept-based patent image retrieval
+  authors:
+  - Stefanos Vrochidis
+  - Anastasia Moumtzidou
+  - Ioannis Yiannis Kompatsiaris
+  venue: World Patent Information
+  year: 2012
+  category: image-retrieval
+  url: https://doi.org/10.1016/j.wpi.2012.07.002
+  doi: 10.1016/j.wpi.2012.07.002
+  added: '2026-11-15'
+- title: Retrieval System for Patent Images
+  authors:
+  - Marzieh Mogharrebi
+  - Mei Choo Ang
+  - Anton Satria Prabuwono
+  - Amirhossein Aghamohammadi
+  - Kok Weng Ng
+  venue: Procedia Technology
+  year: 2013
+  category: tools
+  url: https://doi.org/10.1016/j.protcy.2013.12.275
+  doi: 10.1016/j.protcy.2013.12.275
+  added: '2026-11-15'
+- title: 'Towards content-based patent image retrieval: A framework perspective'
+  authors:
+  - Stefanos Vrochidis
+  - Symeon Papadopoulos
+  - Anastasia Moumtzidou
+  - Panagiotis Sidiropoulos
+  - Emanuelle Pianta
+  - Ioannis Yiannis Kompatsiaris
+  venue: World Patent Information
+  year: 2009
+  category: image-retrieval
+  url: https://doi.org/10.1016/j.wpi.2009.05.010
+  doi: 10.1016/j.wpi.2009.05.010
+  added: '2026-11-15'
+- title: The PTO's patent image retrieval system*
+  authors:
+  - William J. Maykrantz
+  venue: Information Services & Use
+  year: 1988
+  category: tools
+  url: https://doi.org/10.3233/isu-1988-85-606
+  doi: 10.3233/isu-1988-85-606
+  added: '2026-11-15'
+- title: Deep Learning for Patent Image Analysis
+  authors:
+  - Dmitriy M. Korobkin
+  - Sergey Alekseevich Fomenkov
+  - Svetlana Kozina
+  - Yaroslav Korobkin
+  venue: International Russian Smart Industry Conference (SmartIndustryCon)
+  year: 2025
+  category: image-retrieval
+  url: https://doi.org/10.1109/smartindustrycon65166.2025.10986219
+  doi: 10.1109/smartindustrycon65166.2025.10986219
+  added: '2026-11-15'
+- title: Contextual local primitives for binary patent image retrieval
+  authors:
+  - Naeem Bhatti
+  - Allan Hanbury
+  - Julian Stöttinger
+  venue: Multim. Tools Appl.
+  year: 2017
+  category: image-retrieval
+  url: https://doi.org/10.1007/s11042-017-4808-5
+  doi: 10.1007/s11042-017-4808-5
+  added: '2026-11-15'
+- title: Visual Structure Analysis of Flow Charts in Patent Images.
+  authors:
+  - Roland Mörzinger
+  - René Schuster
+  - Andras Horti
+  - Georg Thallinger
+  venue: CLEF (Online Working Notes/Labs/Workshop)
+  year: 2012
+  category: image-retrieval
+  url: http://ceur-ws.org/Vol-1178/CLEF2012wn-CLEFIP-MorzingerEt2012.pdf
+  added: '2026-11-15'
+- title: A Study on Patent Imaging and Clustering for Technology Classification
+  authors:
+  - Youngho Kim
+  venue: Journal of Korean institute of intelligent systems
+  year: 2022
+  category: figure-understanding
+  url: https://doi.org/10.5391/jkiis.2022.32.4.312
+  doi: 10.5391/jkiis.2022.32.4.312
+  added: '2026-11-15'
+- title: Enhanced deep feature representation for patent image classification
+  authors:
+  - Gege Song
+  - Xianglin Huang
+  - Gang Cao
+  - Wei Liu
+  - Jianglong Zhang
+  - Lifang Yang
+  venue: International Conference on Graphics and Image Processing (ICGIP)
+  year: 2019
+  category: figure-understanding
+  url: https://doi.org/10.1117/12.2524360
+  doi: 10.1117/12.2524360
+  added: '2026-11-15'
+- title: 'Patent images - a glass-encased tool: opening the case'
+  authors:
+  - Mihai Lupu
+  - René Schuster
+  - Roland Mörzinger
+  - Florina Piroi
+  - Tobias Schleser
+  - Allan Hanbury
+  venue: I-KNOW
+  year: 2012
+  category: tools
+  url: https://doi.org/10.1145/2362456.2362477
+  doi: 10.1145/2362456.2362477
+  added: '2026-11-15'
+- title: Deriving Design Feature Vectors for Patent Images Using Convolutional Neural Networks
+  authors:
+  - Shuo Jiang
+  - Jianxi Luo
+  - Guillermo Ruiz Pava
+  - Jie Hu
+  - Christopher L. Magee
+  venue: Journal of Mechanical Design
+  year: 2020
+  category: image-retrieval
+  url: https://doi.org/10.1115/1.4049214
+  doi: 10.1115/1.4049214
+  added: '2026-11-15'
+- title: Document Image Classification, with a Specific View on Applications of Patent Images
+  authors:
+  - Gabriela Csurka
+  venue: The Kluwer international series on information retrieval
+  year: 2017
+  category: figure-understanding
+  url: https://doi.org/10.1007/978-3-662-53817-3_12
+  doi: 10.1007/978-3-662-53817-3_12
+  arxiv: '1601.03295'
+  added: '2026-11-15'
+- title: Patent Image Retrieval Using SURF Direction histograms
+  authors:
+  - Juhee Yoo
+  - Kyoung-Mi Lee
+  venue: Journal of KIISE
+  year: 2015
+  category: image-retrieval
+  url: https://doi.org/10.5626/jok.2015.42.1.33
+  doi: 10.5626/jok.2015.42.1.33
+  added: '2026-11-15'
+- title: Design patent image retrieval based on shape features
+  authors:
+  - Wenli Yang
+  - Zhiyuan Zeng
+  - Yujie Bai
+  venue: IEEE International Conference on Intelligent Computing and Intelligent Systems (ICIS)
+  year: 2009
+  category: image-retrieval
+  url: https://doi.org/10.1109/icicisys.2009.5357668
+  doi: 10.1109/icicisys.2009.5357668
+  added: '2026-11-15'
+- title: The retrieval and display of patent images from optical storage
+  authors: []
+  venue: World Patent Information
+  year: 1990
+  category: image-retrieval
+  url: https://doi.org/10.1016/0172-2190(90)90295-v
+  doi: 10.1016/0172-2190(90)90295-v
+  added: '2026-11-15'
+- title: The Study of Neural Networks Effective Architectures for Patents Images Processing
+  authors:
+  - Alla Grigorievna Kravets
+  - Sergey Kolesnikov
+  - Natalia A. Salnikova
+  - Mikhail B. Lempert
+  - Olga V. Poplavskaya
+  venue: Communications in computer and information science
+  year: 2019
+  category: image-retrieval
+  url: https://doi.org/10.1007/978-3-030-29750-3_3
+  doi: 10.1007/978-3-030-29750-3_3
+  added: '2026-11-15'
+- title: Design Patent Image Retrieval Based on Shape and Color Features
+  authors:
+  - Zhiyuan Zeng
+  - Wenli Yang
+  venue: J. Softw.
+  year: 2012
+  category: image-retrieval
+  url: https://doi.org/10.4304/jsw.7.6.1179-1186
+  doi: 10.4304/jsw.7.6.1179-1186
+  added: '2026-11-15'
+- title: 'Patent images on CD-ROM: Numeric vs classified sets'
+  authors:
+  - Jane S. Myers
+  venue: World Patent Information
+  year: 1992
+  category: figure-understanding
+  url: https://doi.org/10.1016/0172-2190(92)90050-s
+  doi: 10.1016/0172-2190(92)90050-s
+  added: '2026-11-15'
+- title: The Design Patent Images Classification Based on Image Caption Model
+  authors:
+  - Hongyu Liu
+  - Qingyun Dai
+  - Ya Li
+  - Chuxin Zhang
+  - Siyu Yi
+  - Tao Yuan
+  venue: BICS
+  year: 2020
+  category: figure-understanding
+  url: https://doi.org/10.1007/978-3-030-39431-8_34
+  doi: 10.1007/978-3-030-39431-8_34
+  added: '2026-11-15'
+- title: A CNN-based Patent Image Retrieval Method for Design Ideation
+  authors:
+  - Shuo Jiang
+  - Jianxi Luo
+  - Guillermo Ruiz Pava
+  - Jie Hu
+  - Christopher L. Magee
+  venue: arXiv
+  year: 2020
+  category: image-retrieval
+  url: https://arxiv.org/pdf/2003.08741
+  added: '2026-11-15'
+- title: An Outward-Appearance Patent-Image Retrieval Approach Based on the Contour-Description Matrix
+  authors:
+  - Zeng Zhiyuan
+  - Juan Zhao
+  - Bin Xu
+  venue: FCST
+  year: 2007
+  category: image-retrieval
+  url: https://doi.org/10.1109/fcst.2007.14
+  doi: 10.1109/fcst.2007.14
+  added: '2026-11-15'
+- title: A Convolutional Neural Network-Based Patent Image Retrieval Method for Design Ideation
+  authors:
+  - Shuo Jiang
+  - Jianxi Luo
+  - Guillermo Ruiz Pava
+  - Jie Hu
+  - Christopher L. Magee
+  venue: ASME International Computers in Engineering Conference and Engineering Database Symposium
+  year: 2020
+  category: image-retrieval
+  url: https://doi.org/10.1115/detc2020-22048
+  doi: 10.1115/detc2020-22048
+  arxiv: '2003.08741'
+  added: '2026-11-15'
+- title: Binary Patent Image Retrieval Using the Hierarchical Oriented Gradient Histogram
+  authors:
+  - Hui Ni
+  - Zhenhua Guo
+  - Biqing Huang
+  venue: ICSS
+  year: 2015
+  category: image-retrieval
+  url: https://doi.org/10.1109/icss.2015.12
+  doi: 10.1109/icss.2015.12
+  added: '2026-11-15'
+- title: Patents Images Retrieval and Convolutional Neural Network Training Dataset Quality Improvement
+  authors:
+  - Alla Grigorievna Kravets
+  - Nikita Lebedev
+  - Maxim Legenchenko
+  venue: International Conference on Information Technologies in Science, Management, Social Sphere and Medicine (ITSMSSM)
+  year: 2017
+  category: datasets
+  url: https://doi.org/10.2991/itsmssm-17.2017.59
+  doi: 10.2991/itsmssm-17.2017.59
+  added: '2026-11-15'
+- title: Concept Extraction from Patent Images Based on Recursive Hybrid Classification
+  authors:
+  - Anastasia Moumtzidou
+  - Stefanos Vrochidis
+  - Ioannis Yiannis Kompatsiaris
+  venue: IRFC
+  year: 2013
+  category: figure-understanding
+  url: https://doi.org/10.1007/978-3-642-41057-4_9
+  doi: 10.1007/978-3-642-41057-4_9
+  added: '2026-11-15'
+- title: Patent Image Recognition and Classification System based on Object Detection Model
+  authors:
+  - Zhu Di
+  - Xuemei Lei
+  - Jie Yang
+  venue: International Conference on Computer Information Science and Application Technology (CISAT)
+  year: 2024
+  category: figure-understanding
+  url: https://doi.org/10.1109/cisat62382.2024.10695273
+  doi: 10.1109/cisat62382.2024.10695273
+  added: '2026-11-15'
+- title: Patent Image Classification Using Local-Constrained Linear Coding and Spatial Pyramid Matching
+  authors:
+  - Hui Ni
+  - Zhenhua Guo
+  - Biqing Huang
+  venue: ICSS
+  year: 2015
+  category: figure-understanding
+  url: https://doi.org/10.1109/icss.2015.13
+  doi: 10.1109/icss.2015.13
+  added: '2026-11-15'
+- title: 'Density-Refine: Patent Image Retrieval by Density-Based Region Extraction and Feature Fusion'
+  authors:
+  - Yu‐Hsun Lin
+  - Min-Chian Hung
+  - Chen-Fan Lee
+  venue: Journal of Mechanical Design
+  year: 2025
+  category: image-retrieval
+  url: https://doi.org/10.1115/1.4067749
+  doi: 10.1115/1.4067749
+  added: '2026-11-15'
+- title: Content-Based Design Patent Image Retrieval Using Structured Features and Multiple Feature Fusion
+  authors:
+  - Lei Zhu
+  - Hai Jin
+  - Ran Zheng
+  - Qin Zhang
+  - Xia Xie
+  - Mingrui Guo
+  venue: ICIG
+  year: 2011
+  category: image-retrieval
+  url: https://doi.org/10.1109/icig.2011.121
+  doi: 10.1109/icig.2011.121
+  added: '2026-11-15'
+- title: XRCE's Participation at Patent Image Classification and Image-based Patent Retrieval Tasks of the Clef-IP 2011
+  authors:
+  - Gabriela Csurka
+  - Jean-Michel Renders
+  - Guillaume Jacquet
+  venue: CLEF (Notebook Papers/Labs/Workshop)
+  year: 2011
+  category: figure-understanding
+  url: https://doi.org/10.13140/2.1.5139.0720
+  doi: 10.13140/2.1.5139.0720
+  added: '2026-11-15'
+- title: Concept-oriented labelling of patent images based on Random Forests and proximity-driven generation of synthetic data
+  authors:
+  - Dimitris Liparas
+  - Anastasia Moumtzidou
+  - Stefanos Vrochidis
+  - Ioannis Yiannis Kompatsiaris
+  venue: VL@COLING
+  year: 2014
+  category: image-retrieval
+  url: https://doi.org/10.3115/v1/w14-5404
+  doi: 10.3115/v1/w14-5404
+  added: '2026-11-15'
+- title: 'Use of optical storage for patent image retrieval: the U.S. Patent and Trademark Office''s automated patent system'
+  authors:
+  - Stephen R. Jacobson
+  venue: Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE
+  year: 1990
+  category: tools
+  url: https://doi.org/10.1117/12.19621
+  doi: 10.1117/12.19621
+  added: '2026-11-15'
+- title: The use of optical storage for patent image retrieval — the U.S. Patent and Trademark Office's automated patent system
+  authors: []
+  venue: World Patent Information
+  year: 1991
+  category: tools
+  url: https://doi.org/10.1016/0172-2190(91)90018-z
+  doi: 10.1016/0172-2190(91)90018-z
+  added: '2026-11-15'
+- title: Mobile based big data design patent image retrieval system via Lp norm deep learning approach
+  authors:
+  - Jing Su
+  - Bingo Wing‐Kuen Ling
+  - Qingyun Dai
+  - Jun Xiao
+  - Kim Fung Tsang
+  venue: IECON
+  year: 2015
+  category: tools
+  url: https://doi.org/10.1109/iecon.2015.7392866
+  doi: 10.1109/iecon.2015.7392866
+  added: '2026-11-15'
+- title: Relevant Image Search Method When Processing a Patent Array
+  authors:
+  - Alla Grigorievna Kravets
+  - Natalia A. Salnikova
+  - Ilia Pavlovich Mikhnev
+  - Natalia Solovieva
+  venue: Communications in computer and information science
+  year: 2021
+  category: image-retrieval
+  url: https://doi.org/10.1007/978-3-030-87034-8_6
+  doi: 10.1007/978-3-030-87034-8_6
+  added: '2026-11-15'
+- title: Enhancing Patent Search with Content-Based Image Retrieval
+  authors:
+  - Stefanos Vrochidis
+  - Anastasia Moumtzidou
+  - Ioannis Yiannis Kompatsiaris
+  venue: Professional Search in the Modern World
+  year: 2014
+  category: image-retrieval
+  url: https://doi.org/10.1007/978-3-319-12511-4_12
+  doi: 10.1007/978-3-319-12511-4_12
+  added: '2026-11-15'
+- title: Patent citation recommendation based on multimodal content and deep learning
+  authors:
+  - Jinzhu Zhang
+  - Yi Zhang
+  - Ruoyu Zhang
+  venue: Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)
+  year: 2025
+  category: multimodal-search
+  url: https://hdl.handle.net/2142/126216
+  added: '2026-11-15'
+- title: Design Patent Retrieval Based on Gabor Wavelet and LBP
+  authors:
+  - Qiuhuai Li
+  - C.S. Zhou
+  - Xiaosen Lv
+  - Hongbo Yang
+  - K. Zhang
+  venue: Applied Mechanics and Materials
+  year: 2015
+  category: image-retrieval
+  url: https://doi.org/10.4028/www.scientific.net/amm.743.503
+  doi: 10.4028/www.scientific.net/amm.743.503
+  added: '2026-11-15'
+- title: Diagram Image Retrieval using Sketch-Based Deep Learning and Transfer Learning
+  authors:
+  - Manish Bhattarai
+  - Diane Oyen
+  - Juan Castorena
+  - Liping Yang
+  - Brendt E. Wohlberg
+  venue: CVPR Workshops
+  year: 2020
+  category: image-retrieval
+  url: https://doi.org/10.1109/cvprw50498.2020.00095
+  doi: 10.1109/cvprw50498.2020.00095
+  arxiv: '2004.10780'
+  added: '2026-11-15'
+- title: 'PatMedia: Augmenting Patent Search with Content-Based Image Retrieval'
+  authors:
+  - Stefanos Vrochidis
+  - Anastasia Moumtzidou
+  - Gerard Ypma
+  - Ioannis Yiannis Kompatsiaris
+  venue: IRFC
+  year: 2012
+  category: image-retrieval
+  url: https://doi.org/10.1007/978-3-642-31274-8_9
+  doi: 10.1007/978-3-642-31274-8_9
+  added: '2026-11-15'
+- title: Exploiting Images for Patent Search
+  authors:
+  - Ilias Gialampoukidis
+  - Anastasia Moumtzidou
+  - Stefanos Vrochidis
+  - Ioannis Yiannis Kompatsiaris
+  venue: Springer Handbook of Science and Technology Indicators
+  year: 2019
+  category: image-retrieval
+  url: https://doi.org/10.1007/978-3-030-02511-3_36
+  doi: 10.1007/978-3-030-02511-3_36
+  added: '2026-11-15'
+- title: A Graphics Image Processing System
+  authors:
+  - Linlin Li
+  - Chew Lim Tam
+  venue: Document Analysis Systems
+  year: 2008
+  category: tools
+  url: https://doi.org/10.1109/das.2008.84
+  doi: 10.1109/das.2008.84
+  added: '2026-11-15'
+- title: 'Object detection in technical drawings for data-driven design: the case of patents'
+  authors:
+  - Marco Consoloni
+  - Gabriele Marino
+  - Denny Meini
+  - Luciano Socci
+  - Vito Giordano
+  - Gualtiero Fantoni
+  venue: Proceedings of the Design Society
+  year: 2026
+  category: image-retrieval
+  url: https://doi.org/10.1017/pds.2026.10581
+  doi: 10.1017/pds.2026.10581
+  added: '2026-11-15'
+- title: How drawings could enhance retrieval in mechanical and device patent searching
+  authors:
+  - Jane List
+  venue: World Patent Information
+  year: 2007
+  category: image-retrieval
+  url: https://doi.org/10.1016/j.wpi.2007.01.001
+  doi: 10.1016/j.wpi.2007.01.001
+  added: '2026-11-15'
+- title: Enhanced Cross-Modal Retrieval with Low-Rank Multi-Head Self-Attention
+  authors:
+  - Hancong Liu
+  - Jingzhong Qi
+  - Qing Zhu
+  venue: ICCEIC
+  year: 2024
+  category: multimodal-search
+  url: https://doi.org/10.1109/icceic64099.2024.10775439
+  doi: 10.1109/icceic64099.2024.10775439
+  added: '2026-11-15'
+- title: The Analysis of Images of Mathematical and Chemical Formulas from Patent Documents
+  authors:
+  - Dmitriy M. Korobkin
+  - Viktor Shcherbinin
+  - Sergey Alekseevich Fomenkov
+  venue: International Russian Smart Industry Conference (SmartIndustryCon)
+  year: 2024
+  category: image-retrieval
+  url: https://doi.org/10.1109/smartindustrycon61328.2024.10515580
+  doi: 10.1109/smartindustrycon61328.2024.10515580
+  added: '2026-11-15'
+- title: Image Based Design Patent Retrieval with Classification and Indexing
+  authors:
+  - Guangjun Gong
+  - Mingrui Guo
+  venue: International Conference on Information Technology and Computer Application (ITCA)
+  year: 2020
+  category: figure-understanding
+  url: https://doi.org/10.1109/itca52113.2020.00107
+  doi: 10.1109/itca52113.2020.00107
+  added: '2026-11-15'
+- title: Research on product appearance patent spatial shape recognition for multi-image feature fusion
+  authors:
+  - Wenguang Lin
+  - Wenchao Yan
+  - Zhizhen Chen
+  - Renbin Xiao
+  venue: Multim. Tools Appl.
+  year: 2023
+  category: figure-understanding
+  url: https://doi.org/10.1007/s11042-023-16477-5
+  doi: 10.1007/s11042-023-16477-5
+  added: '2026-11-15'
+- title: Design of appearance patent retrieval system based on MapReduce cluster framework
+  authors:
+  - Weimin Ni
+  - Sun Huifen
+  venue: IEEE Conference on Telecommunications, Optics and Computer Science (TOCS)
+  year: 2024
+  category: tools
+  url: https://doi.org/10.1117/12.3026172
+  doi: 10.1117/12.3026172
+  added: '2026-11-15'
+- title: Measuring Patent Similarity Based on Text Mining and Image Recognition
+  authors:
+  - Wenguang Lin
+  - Wenqiang Yu
+  - Renbin Xiao
+  venue: Syst.
+  year: 2023
+  category: figure-understanding
+  url: https://doi.org/10.3390/systems11060294
+  doi: 10.3390/systems11060294
+  added: '2026-11-15'
+- title: 'Exploring Artificial Intelligence in Patent Analysis: Strategic Potential and Technological Limitations'
+  authors:
+  - RICCARDO BENEDETTI
+  venue: Electronic Theses and Dissertations Repository (University of Pisa)
+  year: 2026
+  category: image-retrieval
+  url: https://etd.adm.unipi.it/theses/available/etd-03162026-144257/
+  added: '2026-11-15'
+- title: A Patent Infringement Analysis Approach Based on Patent Knowledge Graph Driven Fusion of Graph and Image Similarity
+  authors:
+  - Liting Jing
+  - Chenlong Zhou
+  - Di Feng
+  - Yubo Dou
+  - Xiaoyan Fan
+  - Shaofei Jiang
+  venue: IEEE Access
+  year: 2025
+  category: image-retrieval
+  url: https://doi.org/10.1109/access.2025.3541874
+  doi: 10.1109/access.2025.3541874
+  added: '2026-11-15'
+- title: 'Using computer vision to measure design similarity: An application to design rights'
+  authors:
+  - Egbert Amoncio
+  - Tian Heong Chan
+  - Cornelia Storz
+  venue: Research Policy
+  year: 2025
+  category: image-retrieval
+  url: https://doi.org/10.1016/j.respol.2025.105309
+  doi: 10.1016/j.respol.2025.105309
+  added: '2026-11-15'
+- title: 'Visual descriptor extraction from patent figure captions: a case study of data efficiency between BiLSTM and transformer'
+  authors:
+  - Xin Wei
+  - Jian Feng Wu
+  - Kehinde Ajayi
+  - Diane Oyen
+  venue: JCDL
+  year: 2022
+  category: figure-understanding
+  url: https://doi.org/10.1145/3529372.3533299
+  doi: 10.1145/3529372.3533299
+  added: '2026-11-15'
+- title: Recognizing Figure Labels in Patents.
+  authors:
+  - Ming Gong
+  - Xin Wei
+  - Diane Oyen
+  - Jian Wu
+  - Martin Gryder
+  - Liping Yang
+  venue: SDU@AAAI
+  year: 2021
+  category: figure-understanding
+  url: https://digitalcommons.odu.edu/computerscience_fac_pubs/275
+  added: '2026-11-15'
+- title: Research on product design patents retrieval technology for hex-vision images and three-dimensional models
+  authors:
+  - Qi Huang
+  - Shouqian Sun
+  - Linyun Sun
+  - Wei Chen
+  venue: World Congress on Intelligent Control and Automation
+  year: 2004
+  category: image-retrieval
+  url: https://doi.org/10.1109/wcica.2004.1342233
+  doi: 10.1109/wcica.2004.1342233
+  added: '2026-11-15'
+- title: A Multimodal Design Patent Retrieval Method Based on Chinese-CLIP
+  authors:
+  - Shengnan Zhang
+  - Kaiyao Qin
+  venue: Advances in intelligent systems research/Advances in Intelligent Systems Research
+  year: 2025
+  category: vlms
+  url: https://doi.org/10.2991/978-94-6463-958-2_10
+  doi: 10.2991/978-94-6463-958-2_10
+  added: '2026-11-15'
+- title: 'Enhancing the efficiency of patent classification: a multimodal classification approach for design patents'
+  authors:
+  - Xiaodong Xie
+  - Jie Wu
+  - Mengjia Xiang
+  - Jianting Tang
+  - Yongxiang Sheng
+  venue: J. King Saud Univ. Comput. Inf. Sci.
+  year: 2025
+  category: figure-understanding
+  url: https://doi.org/10.1007/s44443-025-00185-1
+  doi: 10.1007/s44443-025-00185-1
+  added: '2026-11-15'
+- title: Reconstruction of Artifacts from Digital Image Repositories
+  authors:
+  - Cristopher Flagg
+  - Ophir Frieder
+  venue: ACM Journal on Computing and Cultural Heritage
+  year: 2022
+  category: image-retrieval
+  url: https://doi.org/10.1145/3552298
+  doi: 10.1145/3552298
+  added: '2026-11-15'
+- title: 'PatentNet: A Large-Scale Incomplete Multiview, Multimodal, Multilabel Industrial Goods Image Database'
+  authors:
+  - Fangyuan Lei
+  - Da Huang
+  - Jianjian Jiang
+  - Ruijun Ma
+  - Senhong Wang
+  - Jiangzhong Cao
+  - Yusen Lin
+  - Qingyun Dai
+  venue: arXiv
+  year: 2021
+  category: multimodal-search
+  url: https://doi.org/10.48550/arxiv.2106.12139
+  doi: 10.48550/arxiv.2106.12139
+  arxiv: '2106.12139'
+  added: '2026-11-15'
+- title: 'MvPatRec: Viewpoint-Aware Collaborative Attention via Textual Prompt for Multi-View Patent Recognition'
+  authors:
+  - Longlong Jia
+  - Fei Wang
+  - Jianjun Chen
+  - Dongsheng Wang
+  venue: Computers, materials & continua/Computers, materials & continua (Print)
+  year: 2026
+  category: figure-understanding
+  url: https://doi.org/10.32604/cmc.2026.091006
+  doi: 10.32604/cmc.2026.091006
+  added: '2026-11-15'
+- title: Patent retrieval architecture based on document retrieval. Sketching out the Spanish patent landscape
+  authors:
+  - Ana Belén Gil González
+  - Andrea Vázquez‐Ingelmo
+  - Fernando De la Prieta
+  - Ana de Luis Reboredo
+  - Alfonso González‐Briones
+  venue: Log. J. IGPL
+  year: 2019
+  category: image-retrieval
+  url: https://doi.org/10.1093/jigpal/jzz055
+  doi: 10.1093/jigpal/jzz055
+  added: '2026-11-15'
+- title: Impact of Image Enhancement on Vision-Language Models for Line-Dominant Mechanical Drawing Understanding
+  authors:
+  - Liang Zhou
+  - Xinhai Chen
+  - Chang Rao
+  - Rui Chen
+  - Junpeng Chen
+  - Chen Liu
+  - Yongjun Wu
+  - Jianchuan Huang
+  - Haotian Luo
+  venue: International Conference on Artificial Intelligence and Smart Manufacturing
+  year: 2026
+  category: vlms
+  url: https://doi.org/10.1145/3842793.3842818
+  doi: 10.1145/3842793.3842818
+  added: '2026-11-15'
+- title: 'PatentVision: A multimodal method for drafting patent applications'
+  authors:
+  - Ruo Yang
+  - Sai Krishna Reddy Mudhiganti
+  - Manali Sharma
+  venue: EACL (Industry Track)
+  year: 2026
+  category: multimodal-search
+  url: https://doi.org/10.18653/v1/2026.eacl-industry.29
+  doi: 10.18653/v1/2026.eacl-industry.29
+  arxiv: '2510.09762'
+  added: '2026-11-15'
+- title: Multimodal Patent Knowledge Graph Construction Method Based on Large Language Models
+  authors:
+  - Zi Wang
+  - X J Liu
+  - Xiaolin Ma
+  - Hailan Kuang
+  venue: International Conference on Artificial Intelligence and Industrial Technology Applications (AIITA)
+  year: 2026
+  category: vlms
+  url: https://doi.org/10.1109/aiita69518.2026.11567263
+  doi: 10.1109/aiita69518.2026.11567263
+  added: '2026-11-15'
+- title: 'MarkitS: an image-to-SMILES parsing workflow for Markush structures'
+  authors:
+  - Kun-Lin Tsai
+  - Yi‐Chen Lin
+  - Feng-Chi Chen
+  venue: Journal of Cheminformatics
+  year: 2026
+  category: image-retrieval
+  url: https://doi.org/10.1186/s13321-026-01301-7
+  doi: 10.1186/s13321-026-01301-7
+  added: '2026-11-15'
+- title: Real Data Closes Synthetic-to-Real Gap in Optical Chemical Structure Recognition
+  authors:
+  - Yani Guan
+  - Dengpan Dong
+  - Zi Wei
+  - Shuang Luo
+  - Dan Hannah
+  - Yumin Zhang
+  - Kang Xu
+  venue: arXiv
+  year: 2026
+  category: figure-understanding
+  url: https://doi.org/10.48550/arxiv.2608.09100
+  doi: 10.48550/arxiv.2608.09100
+  arxiv: '2608.09100'
+  added: '2026-11-15'
+- title: Multimodal large-model-based information retrieval algorithm and its application to patent analysis
+  authors:
+  - Fenghua Zhao
+  - Yinhong Liu
+  venue: IEEE Conference on Telecommunications, Optics and Computer Science (TOCS)
+  year: 2026
+  category: multimodal-search
+  url: https://doi.org/10.1117/12.3108453
+  doi: 10.1117/12.3108453
+  added: '2026-11-15'
+- title: A survey on automated and AI-based tools for patent retrieval with a special focus on the life sciences domain
+  authors:
+  - Sara Poce
+  - Gianni Cerro
+  venue: World Patent Information
+  year: 2026
+  category: surveys
+  url: https://doi.org/10.1016/j.wpi.2026.102439
+  doi: 10.1016/j.wpi.2026.102439
+  added: '2026-11-15'
+- title: Multi-modal chemical information reconstruction from images and texts for exploring the near-drug space
+  authors:
+  - Jie Wang
+  - Zihao Shen
+  - Yichen Liao
+  - Zhen Yuan
+  - Shiliang Li
+  - Gaoqi He
+  - Man Lan
+  - Xuhong H. Qian
+  - Kai Zhang
+  - Honglin Li
+  venue: Briefings Bioinform.
+  year: 2022
+  category: multimodal-search
+  url: https://doi.org/10.1093/bib/bbac461
+  doi: 10.1093/bib/bbac461
+  added: '2026-11-15'
+- title: Visual search and analysis of documents in the intellectual property domain
+  authors:
+  - Steffen Koch
+  venue: OPUS Publication Server of the University of Stuttgart (University of Stuttgart)
+  year: 2012
+  category: image-retrieval
+  url: https://doi.org/10.18419/opus-3090
+  doi: 10.18419/opus-3090
+  added: '2026-11-15'
+- title: Markush structure reconstruction
+  authors:
+  - Carina Haupt
+  venue: Fraunhofer-Publica (Fraunhofer-Gesellschaft)
+  year: 2009
+  category: image-retrieval
+  url: https://doi.org/10.24406/publica-fhg-278289
+  doi: 10.24406/publica-fhg-278289
+  added: '2026-11-15'
+- title: 'A Benchmark Evaluation of Chemical Structure Extraction from Patents: Insights and Challenges in Chemical Structure Recognition'
+  authors:
+  - Farina Tariq
+  - Erik Ylipää
+  - Lili Jiang
+  - Patrik Rydén
+  - Patrik L. Andersson
+  venue: Chemical Research in Toxicology
+  year: 2026
+  category: datasets
+  url: https://doi.org/10.1021/acs.chemrestox.6c00057
+  doi: 10.1021/acs.chemrestox.6c00057
+  added: '2026-11-15'
+- title: 'R-GroundBench: A Diagnostic Benchmark for R-Group Groundingin Markush Molecular Editing'
+  authors:
+  - Xin Wang
+  - Zichuan Ying
+  - Xinna Lin
+  - Junqi Zhang
+  - Hanyi Xiong
+  - Tianyu Gao
+  - Hairong Zhang
+  - Qixiang Hua
+  - Botian Shi
+  - Zhenhailong Wang
+  - Kaicheng Yu
+  venue: arXiv
+  year: 2026
+  category: datasets
+  url: https://doi.org/10.48550/arxiv.2610.00700
+  doi: 10.48550/arxiv.2610.00700
+  arxiv: '2610.00700'
+  added: '2026-11-15'
+- title: 'MolParser: End-to-End Visual Recognition of Molecule Structures in the Wild'
+  authors:
+  - Xi Fang
+  - Jiankun Wang
+  - Xiaochen Cai
+  - Shangqian Che
+  - Shuwen Yang
+  - Haoyi Tao
+  - Nan Wang
+  - Lin Yao
+  - Linfeng Zhang
+  - Guolin Ke
+  venue: ICCV
+  year: 2025
+  category: figure-understanding
+  url: https://doi.org/10.1109/iccv51701.2025.02274
+  doi: 10.1109/iccv51701.2025.02274
+  arxiv: '2411.11098'
+  added: '2026-11-15'
+- title: Ground-truthed dataset of chemical structure images in Japanese published patent applications
+  authors:
+  - Koji Nakagawa
+  - Akio Fujiyoshi
+  - Masakazu Suzuki
+  venue: Document Analysis Systems
+  year: 2010
+  category: datasets
+  url: https://doi.org/10.1145/1815330.1815389
+  doi: 10.1145/1815330.1815389
+  added: '2026-11-15'
+- title: 'PatCID: an open-access dataset of chemical structures in patent documents'
+  authors:
+  - Lucas Morin
+  - Valéry Weber
+  - G. I. Meijer
+  - Fisher Yu
+  - Peter Staar
+  venue: Nature Communications
+  year: 2024
+  category: datasets
+  url: https://doi.org/10.1038/s41467-024-50779-y
+  doi: 10.1038/s41467-024-50779-y
+  added: '2026-11-15'
+- title: 'Chemical Structure Recognition (CSR) System: Automatic Analysis of 2D Chemical Structures in Document Images'
+  authors:
+  - Syed Saqib Bukhari
+  - Zaryab Iftikhar
+  - Andreas R. Dengel
+  venue: ICDAR
+  year: 2019
+  category: figure-understanding
+  url: https://doi.org/10.1109/icdar.2019.00-41
+  doi: 10.1109/icdar.2019.00-41
+  added: '2026-11-15'
+- title: Comparing Optical Chemical Structure Recognition Tools
+  authors:
+  - Lutz Weber
+  - Aleksei Krasnov
+  - Shadrack J. Barnabas
+  - Timo Böhme
+  - Stephen Boyer
+  venue: ChemRxiv
+  year: 2023
+  category: figure-understanding
+  url: https://doi.org/10.26434/chemrxiv-2023-d6kmg
+  doi: 10.26434/chemrxiv-2023-d6kmg
+  added: '2026-11-15'
+- title: Comparing Software Tools for Optical Chemical Structure Recognition
+  authors:
+  - Lutz Weber
+  - Aleksei Krasnov
+  - Shadrack J. Barnabas
+  - Timo Böhme
+  - Stephen Boyer
+  venue: ChemRxiv
+  year: 2024
+  category: figure-understanding
+  url: https://doi.org/10.26434/chemrxiv-2023-d6kmg-v2
+  doi: 10.26434/chemrxiv-2023-d6kmg-v2
+  added: '2026-11-15'
+- title: Automated molecular structure segmentation from documents using ChemSAM
+  authors:
+  - Bowen Tang
+  - Zhangming Niu
+  - Xiaofeng Wang
+  - Junjie Huang
+  - Chao Ma
+  - Jing Peng
+  - Yinghui Jiang
+  - Ruiquan Ge
+  - Hongyu Hu
+  - Luhao Lin
+  - Guang Yang
+  venue: J. Cheminformatics
+  year: 2024
+  category: figure-understanding
+  url: https://doi.org/10.1186/s13321-024-00823-2
+  doi: 10.1186/s13321-024-00823-2
+  added: '2026-11-15'
+- title: DECIMER V2 Benchmark Datasets
+  authors:
+  - Kohulan Rajan
+  - Henning Otto Brinkhaus
+  - M. Isabel Agea
+  - Achim Zielesny
+  - Christoph Steinbeck
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+  year: 2023
+  category: datasets
+  url: https://doi.org/10.5281/zenodo.8139327
+  doi: 10.5281/zenodo.8139327
+  added: '2026-11-15'
+- title: 'PatentLMM: Large Multimodal Model for Generating Descriptions for Patent Figures'
+  authors:
+  - Shreya Shukla
+  - Nakul Sharma
+  - Manish Gupta
+  - Anand Mishra
+  venue: AAAI
+  year: 2025
+  category: multimodal-search
+  url: https://doi.org/10.1609/aaai.v39i19.34257
+  doi: 10.1609/aaai.v39i19.34257
+  arxiv: '2501.15074'
+  added: '2026-11-15'
+- title: Evaluating Flowchart Recognition for Patent Retrieval.
+  authors:
+  - Mihai Lupu
+  - Florina Piroi
+  - Allan Hanbury
+  venue: EVIA@NTCIR
+  year: 2013
+  category: figure-understanding
+  url: https://research.nii.ac.jp/ntcir/workshop/OnlineProceedings10/pdf/EVIA/08-EVIA2013-LupuM.pdf
+  added: '2026-11-15'
+- title: Flowchart Recognition in Patent Information Retrieval
+  authors:
+  - Marçal Rusiñol
+  - Josep Lladós
+  venue: The Kluwer international series on information retrieval
+  year: 2017
+  category: figure-understanding
+  url: https://doi.org/10.1007/978-3-662-53817-3_13
+  doi: 10.1007/978-3-662-53817-3_13
+  added: '2026-11-15'
+- title: 'Natural language processing in the patent domain: a survey'
+  authors:
+  - Lekang Jiang
+  - Stefan M. Goetz
+  venue: Artif. Intell. Rev.
+  year: 2025
+  category: surveys
+  url: https://doi.org/10.1007/s10462-025-11168-z
+  doi: 10.1007/s10462-025-11168-z
+  arxiv: '2403.04105'
+  added: '2026-11-15'
+- title: 'Detecting figures and part labels in patents: competition-based development of graphics recognition algorithms'
+  authors:
+  - Christoph Riedl
+  - Richard Zanibbi
+  - Marti A. Hearst
+  - Siyu Zhu
+  - Michael Menietti
+  - Jason C. Crusan
+  - Ivan Metelsky
+  - Karim R. Lakhani
+  venue: Int. J. Document Anal. Recognit.
+  year: 2016
+  category: figure-understanding
+  url: https://doi.org/10.1007/s10032-016-0260-8
+  doi: 10.1007/s10032-016-0260-8
+  arxiv: '1410.6751'
+  added: '2026-11-15'

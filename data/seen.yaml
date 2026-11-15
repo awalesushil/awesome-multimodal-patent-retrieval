@@ -1,0 +1,142 @@
+- a benchmark evaluation of chemical structure extraction from patents insights and challenges in chemical structure recognition
+- a cnn based patent image retrieval method for design ideation
+- a convolutional neural network based patent image retrieval method for design ideation
+- a data driven approach to studying dominant designs through patent images
+- a graphics image processing system
+- a multimodal design patent retrieval method based on chinese clip
+- a patent infringement analysis approach based on patent knowledge graph driven fusion of graph and image similarity
+- a study on patent imaging and clustering for technology classification
+- a survey on automated and ai based tools for patent retrieval with a special focus on the life sciences domain
+- a survey on patent analysis from nlp to multimodal ai
+- ai generated figures for patent applications requirements challenges and a domain specific approach
+- an outward appearance patent image retrieval approach based on the contour description matrix
+- automated molecular structure segmentation from documents using chemsam
+- automatic generation of explanatory text from flowchart images in patents
+- bigger data visualization to visual analytics a path to innovation happening definitely misleading possibly a review of some examples applicable to ip discovery
+- binary patent image retrieval using the hierarchical oriented gradient histogram
+- caption guided patent image segmentation
+- chemical structure recognition csr system automatic analysis of 2d chemical structures in document images
+- classification of visualization types and perspectives in patents
+- classifying patent images
+- comparing optical chemical structure recognition tools
+- comparing sift and surf performance on patent drawings
+- comparing software tools for optical chemical structure recognition
+- concept based patent image retrieval
+- concept extraction from patent images based on recursive hybrid classification
+- concept oriented labelling of patent images based on random forests and proximity driven generation of synthetic data
+- content based design patent image retrieval using structured features and multiple feature fusion
+- contextual local primitives for binary patent image retrieval
+- decimer v2 benchmark datasets
+- deep learning for patent image analysis
+- deeppatent large scale patent drawing recognition and retrieval
+- density refine patent image retrieval by density based region extraction and feature fusion
+- deriving design feature vectors for patent images using convolutional neural networks
+- design of appearance patent retrieval system based on mapreduce cluster framework
+- design patent image retrieval based on shape and color features
+- design patent image retrieval based on shape features
+- design patent retrieval based on gabor wavelet and lbp
+- designclip multimodal learning with clip for design patent understanding
+- detecting figures and part labels in patents competition based development of graphics recognition algorithms
+- diagram image retrieval using sketch based deep learning and transfer learning
+- diversity inclusion in images
+- document image classification with a specific view on applications of patent images
+- elicitation of requirements for innovative visual patent retrieval based on interviews with experts
+- enhanced cross modal retrieval with low rank multi head self attention
+- enhanced deep feature representation for patent image classification
+- enhancing patent document similarity evaluation and classification precision through a multimodal ai approach
+- enhancing patent search with content based image retrieval
+- enhancing the efficiency of patent classification a multimodal classification approach for design patents
+- evaluating flowchart recognition for patent retrieval
+- exploiting images for patent search
+- exploring artificial intelligence in patent analysis strategic potential and technological limitations
+- exploring patents visually an interactive search system for multimodal patent image search and interpretation
+- figure detection and part label extraction from patent drawing images
+- flowchart recognition for non textual information retrieval in patent search
+- flowchart recognition in patent information retrieval
+- focus on lasers and imaging
+- granulometry based detection of junction and end points in patent drawings
+- ground truthed dataset of chemical structure images in japanese published patent applications
+- hardware rooted neural ai safety influence verification and execution finality control for european sovereign ai frontier models and critical infrastructure
+- hierarchical multi positive contrastive learning for patent image retrieval
+- how drawings could enhance retrieval in mechanical and device patent searching
+- image based design patent retrieval with classification and indexing
+- image search in patents a review
+- impact a large scale integrated multimodal patent analysis and creation dataset for design patents
+- impact of image enhancement on vision language models for line dominant mechanical drawing understanding
+- industry difference on patent drawing s capability for differentiating stock rates of return of chinese listed companies in non manufacturing industry sectors an explore into invention publication patents and utility model grant patents
+- integration of images into the patent retrieval process
+- intermediate domain alignment and morphology analogy for patent product image retrieval
+- large language model informed patent image retrieval
+- learning efficient representations for image based patent retrieval
+- learning spatial relationships between samples of patent image shapes
+- legal protection of industrial drawings models and designs in yemen
+- les savoirs traditionnels m dicinaux pill s par le droit des brevets is traditional medicine being plundered by patent law
+- markits an image to smiles parsing workflow for markush structures
+- markush structure reconstruction
+- measuring patent similarity based on text mining and image recognition
+- mffpn an anchor free method for patent drawing object detection
+- mining and raw materials sector automated data extraction and contextualization for life cycle inventory lci and material flow analysis mfa across scientific articles patents and mining companies reports
+- mobile based big data design patent image retrieval system via lp norm deep learning approach
+- molparser end to end visual recognition of molecule structures in the wild
+- multi modal chemical information reconstruction from images and texts for exploring the near drug space
+- multimodal large model based information retrieval algorithm and its application to patent analysis
+- multimodal patent knowledge graph construction method based on large language models
+- mvpatrec viewpoint aware collaborative attention via textual prompt for multi view patent recognition
+- natural language processing in the patent domain a survey
+- object detection in technical drawings for data driven design the case of patents
+- patcid an open access dataset of chemical structures in patent documents
+- patdpa an online searchable patent database with display of patent drawing
+- patent citation recommendation based on multimodal content and deep learning
+- patent figure classification using large vision language models
+- patent image classification using local constrained linear coding and spatial pyramid matching
+- patent image recognition and classification system based on object detection model
+- patent image retrieval a survey
+- patent image retrieval using surf direction histograms
+- patent image retrieval using transformer based deep metric learning
+- patent images a glass encased tool opening the case
+- patent images on cd rom numeric vs classified sets
+- patent retrieval architecture based on document retrieval sketching out the spanish patent landscape
+- patentlmm large multimodal model for generating descriptions for patent figures
+- patentnet a large scale incomplete multiview multimodal multilabel industrial goods image database
+- patentocr a benchmark for fine grained detection and ocr of component identifiers in patent drawings
+- patents images retrieval and convolutional neural network training dataset quality improvement
+- patentvision a multimodal method for drafting patent applications
+- patfig generating short and long captions for patent figures
+- patmedia augmenting patent search with content based image retrieval
+- pdtw150k a dataset for patent drawing retrieval
+- proactive ai initiated voice calling and cross modal human ai interaction a unified architecture for autonomous telephone initiation predictive interaction need modeling continuous multimodal communication and general purpose agentic execution
+- pt2pr a benchmark for multimodal patent to product retrieval
+- r groundbench a diagnostic benchmark for r group groundingin markush molecular editing
+- real data closes synthetic to real gap in optical chemical structure recognition
+- recognizing figure labels in patents
+- reconstruction of artifacts from digital image repositories
+- records of eli whitney s cotton gin patent
+- relational skeletons for retrieval in patent drawings
+- relevant image search method when processing a patent array
+- replication data for deeppatent2 a large scale benchmarking corpus for technical drawing understanding
+- research on product appearance patent spatial shape recognition for multi image feature fusion
+- research on product design patents retrieval technology for hex vision images and three dimensional models
+- retrieval system for patent images
+- tesla s fountain from idea to patent on the occasion of the 170th anniversary of the birth of nikola tesla
+- text detection in natural scenes and technical diagrams with convolutional feature learning and cascaded classification
+- textual summarisation of flowcharts in patent drawings for clef ip 2012
+- the analysis of images of mathematical and chemical formulas from patent documents
+- the design patent images classification based on image caption model
+- the geometry of generative reasoning gauge theoretic transformers as realizations of semantic sameness
+- the pto s patent image retrieval system
+- the retrieval and display of patent images from optical storage
+- the study of neural networks effective architectures for patents images processing
+- the temporal governance architecture a reference model for autonomous multi agent systems
+- the use of optical storage for patent image retrieval the u s patent and trademark office s automated patent system
+- towards content based patent image retrieval a framework perspective
+- updated progress on mass spectrometry imaging and its application in cancer treatment and drug discovery
+- use of optical storage for patent image retrieval the u s patent and trademark office s automated patent system
+- using computer vision to measure design similarity an application to design rights
+- using patent drawings to differentiate stock return rate of china listed companies a study on china patent species of invention grant
+- using patent drawings to differentiate stock return rate of china listed companies a study on china patent species of utility model grant
+- visual descriptor extraction from patent figure captions a case study of data efficiency between bilstm and transformer
+- visual search and analysis of documents in the intellectual property domain
+- visual semantic profiling of the voynich manuscript reading meaning from illustrations in an undeciphered codex
+- visual structure analysis of flow charts in patent images
+- voynich manuscript 16 dimensional visual semantic profiles and statistical artefacts
+- xrce s participation at patent image classification and image based patent retrieval tasks of the clef ip 2011

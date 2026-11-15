@@ -1,0 +1,22 @@
+[project]
+name = "awesome-multimodal-patent-retrieval"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = ["httpx", "pydantic", "pyyaml", "tenacity"]
+
+[dependency-groups]
+dev = ["mypy", "ruff", "types-pyyaml"]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+ignore = ["EXE002"]
+
+[tool.mypy]
+strict = true
+mypy_path = "scripts"
+plugins = ["pydantic.mypy"]
