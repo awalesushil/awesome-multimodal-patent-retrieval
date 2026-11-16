@@ -1,5 +1,7 @@
+import html
 import os
 import re
+from dataclasses import dataclass
 
 import httpx
 from pydantic import BaseModel
@@ -7,6 +9,7 @@ from tenacity import retry, retry_if_exception, stop_after_attempt, wait_exponen
 
 OPENALEX = "https://api.openalex.org"
 DBLP_SPARQL = "https://sparql.dblp.org/sparql"
+CEUR = "https://ceur-ws.org/"
 USER_AGENT = "awesome-multimodal-patent-retrieval (+https://github.com/awalesushil/awesome-multimodal-patent-retrieval)"
 BOT_BLOCKED = 403
 WORK_FIELDS = "id,doi,title,publication_year,authorships,primary_location,locations,abstract_inverted_index,type"
@@ -131,6 +134,11 @@ class SparqlResponse(BaseModel):
     results: SparqlBindings
 
 
+def short_venue(venue: str) -> str:
+    venue = re.sub(r"\s*\(\d+\)$", "", venue)
+    return "arXiv" if venue == "CoRR" else venue
+
+
 def dblp_venue(doi: str | None, title: str) -> str | None:
     escaped = title.rstrip(".").replace("\\", "\\\\").replace('"', '\\"')
     matches = [f'dblp:title "{escaped}."']
@@ -140,6 +148,96 @@ def dblp_venue(doi: str | None, title: str) -> str | None:
         query = f"PREFIX dblp: <https://dblp.org/rdf/schema#> SELECT ?venue WHERE {{ ?paper {match} ; dblp:publishedIn ?venue . }}"
         bindings = SparqlResponse.model_validate(get_json(DBLP_SPARQL, {"query": query})).results.bindings
         if bindings:
-            venue = re.sub(r"\s*\(\d+\)$", "", bindings[0].venue.value)
-            return "arXiv" if venue == "CoRR" else venue
+            return short_venue(bindings[0].venue.value)
     return None
+
+
+class DblpRow(BaseModel):
+    title: SparqlValue
+    year: SparqlValue
+    venue: SparqlValue
+    doi: SparqlValue | None = None
+    ee: SparqlValue | None = None
+    authors: SparqlValue | None = None
+
+
+class DblpRows(BaseModel):
+    bindings: list[DblpRow]
+
+
+class DblpRowsResponse(BaseModel):
+    results: DblpRows
+
+
+@dataclass(frozen=True, slots=True)
+class VenuePaper:
+    title: str
+    year: int
+    venue: str
+    authors: list[str]
+    doi: str | None
+    url: str | None
+
+
+def dblp_papers(match: str) -> list[VenuePaper]:
+    query = (
+        "PREFIX dblp: <https://dblp.org/rdf/schema#> "
+        'SELECT ?title ?year ?venue ?doi ?ee (GROUP_CONCAT(CONCAT(STR(?ord), ":", ?name); separator="|") AS ?authors) '
+        f"WHERE {{ ?paper dblp:title ?title ; dblp:yearOfPublication ?year ; dblp:publishedIn ?venue . {match} "
+        "OPTIONAL { ?paper dblp:doi ?doi } OPTIONAL { ?paper dblp:primaryDocumentPage ?ee } "
+        "OPTIONAL { ?paper dblp:hasSignature ?sig . ?sig dblp:signatureDblpName ?name ; dblp:signatureOrdinal ?ord } } "
+        "GROUP BY ?title ?year ?venue ?doi ?ee"
+    )
+    rows = DblpRowsResponse.model_validate(get_json(DBLP_SPARQL, {"query": query})).results.bindings
+    papers = []
+    for row in rows:
+        signatures = row.authors.value.split("|") if row.authors and row.authors.value else []
+        ordered = sorted((int(ordinal), name) for ordinal, name in (sig.split(":", 1) for sig in signatures))
+        papers.append(
+            VenuePaper(
+                title=row.title.value.rstrip("."),
+                year=int(row.year.value),
+                venue=short_venue(row.venue.value),
+                authors=[re.sub(r" \d{4}$", "", name) for _, name in ordered],
+                doi=row.doi.value.removeprefix("https://doi.org/").lower() if row.doi else None,
+                url=row.ee.value if row.ee else None,
+            )
+        )
+    return papers
+
+
+def fetch_text(url: str) -> str:
+    response = client.get(url)
+    response.raise_for_status()
+    return response.text
+
+
+def plain(markup: str) -> str:
+    return " ".join(html.unescape(re.sub(r"<[^>]+>", " ", markup)).split())
+
+
+def ceur_volumes(title_pattern: re.Pattern[str]) -> list[str]:
+    index = fetch_text(CEUR)
+    links = re.findall(r'<a href="(https://ceur-ws.org/Vol-\d+/)">(.*?)</a>', index, re.DOTALL)
+    return [url for url, title in links if title_pattern.search(plain(title))]
+
+
+def ceur_papers(volume_url: str) -> list[VenuePaper]:
+    page = fetch_text(volume_url)
+    title_tag = re.search(r"<title>(.*?)</title>", page, re.DOTALL)
+    if title_tag is None:
+        raise ValueError(f"No <title> on CEUR volume page {volume_url}")
+    heading = plain(title_tag[1])
+    year = re.search(r"\b(?:19|20)\d{2}\b", heading)
+    if year is None:
+        raise ValueError(f"No year in CEUR volume title {heading!r} ({volume_url})")
+    acronym = re.search(r"\(([A-Z][A-Za-z-]+)(?: \d{4})?\)", heading)
+    venue = acronym[1] if acronym else heading
+
+    papers = []
+    for href, body in re.findall(r'<li id="[^"]*"><a href="([^"]+\.pdf)">(.*?)</li>', page, re.DOTALL):
+        title = re.search(r'<span class="CEURTITLE">(.*?)</span>', body, re.DOTALL)
+        if title:
+            authors = [plain(name) for name in re.findall(r'<span class="CEURAUTHOR">(.*?)</span>', body, re.DOTALL)]
+            papers.append(VenuePaper(plain(title[1]), int(year[0]), venue, authors, None, volume_url + href))
+    return papers

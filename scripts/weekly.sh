@@ -2,6 +2,12 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
+if [[ -f .env ]]; then
+  set -a
+  source .env
+  set +a
+fi
+
 scripts/publish.sh
 
 open_reviews=$(gh pr list --state open --json headRefName --jq '[.[] | select(.headRefName | startswith("candidates/"))] | length')
@@ -26,5 +32,11 @@ fi
 git add data
 git commit -q -m "Weekly candidates $today"
 git push -q -u origin "$branch"
-gh pr create --base main --head "$branch" --title "Weekly candidates $today" --body-file candidates.md
+
+pr=(gh pr create --base main --head "$branch" --title "Weekly candidates $today" --body-file candidates.md)
+if [[ -n "${GITHUB_APP_ID:-}" ]]; then
+  GH_TOKEN=$(scripts/github_app_token.sh) "${pr[@]}"
+else
+  "${pr[@]}"
+fi
 git checkout -q main

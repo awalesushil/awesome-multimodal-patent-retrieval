@@ -17,7 +17,17 @@ from catalog import (
     save_seen,
     title_key,
 )
-from sources import Work, dblp_venue, link_problem, openalex_work_by_doi, openalex_works
+from sources import (
+    VenuePaper,
+    Work,
+    ceur_papers,
+    ceur_volumes,
+    dblp_papers,
+    dblp_venue,
+    link_problem,
+    openalex_work_by_doi,
+    openalex_works,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -37,6 +47,16 @@ SEARCH_QUERIES = [
     "patent flowchart recognition",
     '"industrial design" image retrieval',
 ]
+WORLD_PATENT_INFORMATION = "S84022812"
+WPI_QUERY = "(image OR drawing OR figure OR visual OR multimodal OR sketch OR diagram OR flowchart OR chemical)"
+DBLP_PATENT_VENUES = {
+    "PatentSemTech": "?paper dblp:publishedInStream <https://dblp.org/streams/conf/patentsemtech> .",
+    "PaIR@CIKM": "?paper dblp:publishedInStream <https://dblp.org/streams/conf/pair> .",
+    "CLEF-IP": '?paper dblp:publishedInStream <https://dblp.org/streams/conf/clef> . FILTER(REGEX(?title, "patent", "i"))',
+    "NTCIR": '?paper dblp:publishedInStream <https://dblp.org/streams/conf/ntcir> . FILTER(REGEX(?title, "patent", "i"))',
+    "Current Challenges in Patent IR": '?paper dblp:publishedIn "Current Challenges in Patent Information Retrieval" .',
+}
+CEUR_PATENT_VOLUMES = re.compile(r"\bpatent", re.IGNORECASE)
 SEARCH_PAGES = 3
 CITATION_PAGES = 2
 SKIPPED_TYPES = {"book", "paratext", "erratum", "retraction", "editorial", "letter", "peer-review", "other"}
@@ -51,6 +71,7 @@ METHOD = re.compile(
     r"dataset|benchmark|embedding\w*|similarity|matching|model\w*|transformer\w*|convolutional)\b",
     re.IGNORECASE,
 )
+CHEMICAL_STRUCTURE = re.compile(r"\b(chemical[- ]structures?|markush|molecul\w*)\b", re.IGNORECASE)
 MEDICAL = re.compile(
     r"\b(foramen|ductus|coronary|arter\w*|stents?|aneurysm|patients?|clinical|surg\w*|catheter\w*|cardi\w*)\b",
     re.IGNORECASE,
@@ -140,12 +161,57 @@ def fetch_works(papers: list[Paper]) -> list[Work]:
         logger.info("searching %s", query)
         works += openalex_works(f"title_and_abstract.search:{query}", SEARCH_PAGES)
 
+    logger.info("searching World Patent Information")
+    works += openalex_works(
+        f"primary_location.source.id:{WORLD_PATENT_INFORMATION},title_and_abstract.search:{WPI_QUERY}", SEARCH_PAGES
+    )
+
     for paper in papers:
         if paper.doi:
             logger.info("citations of %s", paper.title)
             seed_id = openalex_work_by_doi(paper.doi).id.rsplit("/", 1)[1]
             works += openalex_works(f"cites:{seed_id}", CITATION_PAGES)
     return works
+
+
+def venue_paper(found: VenuePaper, today: date) -> Paper | None:
+    title = re.sub(r"\s+\d+-\d+$", "", found.title)
+    url = f"https://doi.org/{found.doi}" if found.doi else found.url
+    if not (VISUAL.search(title) or CHEMICAL_STRUCTURE.search(title)) or MEDICAL.search(title) or url is None:
+        return None
+    if not found.doi and (problem := link_problem(url)):
+        logger.info("skipping until its link works: %s", problem)
+        return None
+    clef_year = re.search(r"CLEF(\d{4})", url)
+    return Paper(
+        title=title,
+        authors=found.authors,
+        venue=found.venue,
+        year=int(clef_year[1]) if clef_year else found.year,
+        category=guess_category(title),
+        url=url,
+        doi=found.doi,
+        added=today,
+    )
+
+
+def patent_venue_papers(seen: set[str], today: date) -> list[Paper]:
+    found: list[VenuePaper] = []
+    for name, match in DBLP_PATENT_VENUES.items():
+        logger.info("listing %s in DBLP", name)
+        found += dblp_papers(match)
+    for volume in ceur_volumes(CEUR_PATENT_VOLUMES):
+        logger.info("listing CEUR %s", volume)
+        found += ceur_papers(volume)
+
+    added: dict[str, Paper] = {}
+    for candidate in found:
+        key = title_key(re.sub(r"\s+\d+-\d+$", "", candidate.title))
+        if key in seen or key in added:
+            continue
+        if paper := venue_paper(candidate, today):
+            added[key] = paper
+    return list(added.values())
 
 
 def new_candidates(works: list[Work], seen: set[str]) -> dict[str, Work]:
@@ -191,6 +257,7 @@ def main() -> None:
     candidates = new_candidates(fetch_works(papers), seen)
     today = date.today()
     added = [paper for work in candidates.values() if (paper := to_paper(work, today))]
+    added += patent_venue_papers(seen | {title_key(paper.title) for paper in added}, today)
 
     save_papers(CANDIDATES_PATH, pending + added)
     save_seen(seen | {title_key(paper.title) for paper in added})
