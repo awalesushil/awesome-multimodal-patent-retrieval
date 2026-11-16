@@ -1,1 +1,166 @@
-[]
+- title: A Study on Patents Invalidation Reexamination Decisions for Discussing Variance between Strong Utility Models and Weak Utility Models
+  authors:
+  - Guangyun Deng
+  - Hui‐Chung Che
+  - Yingwu Peng
+  venue: Unknown venue
+  year: 2024
+  category: image-retrieval
+  url: https://doi.org/10.47260/bae/1127
+  doi: 10.47260/bae/1127
+  added: '2026-11-16'
+- title: Patent Document Similarity Based on Image Analysis Using the SIFT-Algorithm and OCR-Text
+  authors:
+  - 배재대학교
+  venue: International Journal of Contents
+  year: 2017
+  category: image-retrieval
+  url: https://doi.org/10.5392/ijoc.2017.13.4.070
+  doi: 10.5392/ijoc.2017.13.4.070
+  added: '2026-11-16'
+- title: Multi-modal knowledge-level representation learning for structure-oriented patent citation prediction
+  authors:
+  - Tingxin Jiang
+  - Xiaowang Zhang
+  - Zhiyong Feng
+  venue: Pattern Recognit.
+  year: 2026
+  category: multimodal-search
+  url: https://doi.org/10.1016/j.patcog.2026.114862
+  doi: 10.1016/j.patcog.2026.114862
+  added: '2026-11-16'
+- title: Evaluation of a Visual Tool for Early Patent Infringement Detection During Design
+  authors:
+  - Salvatore Sorce
+  - Alessio Malizia
+  - Vito Gentile
+  - Pingfei Jiang
+  - Mark A. Atherton
+  - David J. Harrison
+  venue: IS-EUD
+  year: 2019
+  category: tools
+  url: https://doi.org/10.1007/978-3-030-24781-2_12
+  doi: 10.1007/978-3-030-24781-2_12
+  added: '2026-11-16'
+- title: A Novel Visual Interface to Foster Innovation in Mechanical Engineering and Protect from Patent Infringement
+  authors:
+  - Salvatore Sorce
+  - Alessio Malizia
+  - Pingfei Jiang
+  - Mark A. Atherton
+  - David J. Harrison
+  venue: Journal of Physics Conference Series
+  year: 2018
+  category: tools
+  url: https://doi.org/10.1088/1742-6596/1004/1/012024
+  doi: 10.1088/1742-6596/1004/1/012024
+  added: '2026-11-16'
+- title: 'Patent Retrieval: A Multi-Modal Visual Analytics Approach'
+  authors:
+  - Daniel Seebacher
+  - Manuel Stein
+  - Halldór Janetzko
+  - Daniel A. Keim
+  venue: EuroVA@EuroVis
+  year: 2016
+  category: multimodal-search
+  url: https://doi.org/10.2312/eurova.20161118
+  doi: 10.2312/eurova.20161118
+  added: '2026-11-16'
+- title: 'Patent Mining: A Survey'
+  authors:
+  - Longhui Zhang
+  - Lei Li
+  - Tao Li
+  venue: SIGKDD Explor.
+  year: 2015
+  category: surveys
+  url: https://doi.org/10.1145/2783702.2783704
+  doi: 10.1145/2783702.2783704
+  added: '2026-11-16'
+- title: Associating figures with descriptions for patent documents
+  authors:
+  - Linlin Li
+  - Chew Lim Tan
+  venue: Document Analysis Systems
+  year: 2010
+  category: image-retrieval
+  url: https://doi.org/10.1145/1815330.1815380
+  doi: 10.1145/1815330.1815380
+  added: '2026-11-16'
+- title: 'Patent informatics: The issue of relevance in full‐text patent document searches'
+  authors:
+  - Marica Starešinič
+  - Bojana Boh
+  venue: Online Inf. Rev.
+  year: 2009
+  category: image-retrieval
+  url: https://doi.org/10.1108/14684520910944445
+  doi: 10.1108/14684520910944445
+  added: '2026-11-16'
+- title: Patent Landscape and Emerging Trends in Biosensors for Smart Systems
+  authors:
+  - Tia Pope
+  - Ahmad Patooghy
+  venue: MWSCAS
+  year: 2025
+  category: image-retrieval
+  url: https://doi.org/10.1109/mwscas53549.2025.11244308
+  doi: 10.1109/mwscas53549.2025.11244308
+  added: '2026-11-16'
+- title: Generative AI approach for inventive process visualisation – enhancing human-AI hybrid understanding and comparing of patents
+  authors:
+  - Amy J.C. Trappey
+  - Chun-Yi Wu
+  - Y.-C. Lee
+  - L.P. Hung
+  venue: Journal of Engineering Design
+  year: 2025
+  category: figure-understanding
+  url: https://doi.org/10.1080/09544828.2025.2518657
+  doi: 10.1080/09544828.2025.2518657
+  added: '2026-11-16'
+- title: 'AI-assisted interpretation of Markush structures in pharmaceutical patents: a review of emerging tools, datasets, and challenges'
+  authors:
+  - Jennifer M. Umbles Hayes
+  - Emmanuel Oladayo Olawode
+  - Anietie Andy
+  - Edmund Essah Ameyaw
+  venue: J. Cheminformatics
+  year: 2026
+  category: surveys
+  url: https://doi.org/10.1186/s13321-026-01172-y
+  doi: 10.1186/s13321-026-01172-y
+  added: '2026-11-16'
+- title: 'Predicting commercialization in renewable energy patents: A hybrid multimodal framework integrating BERT and ELECTRA embeddings with gradient boosting'
+  authors:
+  - pouya Nazari
+  - Nazanin Pilevari
+  - Arnoosh Shakeri
+  - Ameneh Khadivar
+  venue: World Patent Information
+  year: 2026
+  category: multimodal-search
+  url: https://doi.org/10.1016/j.wpi.2026.102464
+  doi: 10.1016/j.wpi.2026.102464
+  added: '2026-11-16'
+- title: Exploring Intellectual Property Trends in Smart Cataloguing and Classification
+  authors:
+  - Anindita Das
+  venue: Journal of Information Management
+  year: 2026
+  category: figure-understanding
+  url: https://doi.org/10.5958/2348-1773.2026.00004.4
+  doi: 10.5958/2348-1773.2026.00004.4
+  added: '2026-11-16'
+- title: Application of Deep Convolutional Neural Network Under Region Proposal Network in Patent Graphic Recognition and Retrieval
+  authors:
+  - Ming Li
+  - Hui Li
+  venue: IEEE Access
+  year: 2021
+  category: figure-understanding
+  url: https://doi.org/10.1109/access.2021.3088757
+  doi: 10.1109/access.2021.3088757
+  added: '2026-11-16'
