@@ -4,12 +4,17 @@
 - a data driven approach to studying dominant designs through patent images
 - a graphics image processing system
 - a multimodal design patent retrieval method based on chinese clip
+- a novel visual interface to foster innovation in mechanical engineering and protect from patent infringement
 - a patent infringement analysis approach based on patent knowledge graph driven fusion of graph and image similarity
 - a study on patent imaging and clustering for technology classification
+- a study on patents invalidation reexamination decisions for discussing variance between strong utility models and weak utility models
 - a survey on automated and ai based tools for patent retrieval with a special focus on the life sciences domain
 - a survey on patent analysis from nlp to multimodal ai
+- ai assisted interpretation of markush structures in pharmaceutical patents a review of emerging tools datasets and challenges
 - ai generated figures for patent applications requirements challenges and a domain specific approach
 - an outward appearance patent image retrieval approach based on the contour description matrix
+- application of deep convolutional neural network under region proposal network in patent graphic recognition and retrieval
+- associating figures with descriptions for patent documents
 - automated molecular structure segmentation from documents using chemsam
 - automatic generation of explanatory text from flowchart images in patents
 - bigger data visualization to visual analytics a path to innovation happening definitely misleading possibly a review of some examples applicable to ip discovery
@@ -48,13 +53,16 @@
 - enhancing patent search with content based image retrieval
 - enhancing the efficiency of patent classification a multimodal classification approach for design patents
 - evaluating flowchart recognition for patent retrieval
+- evaluation of a visual tool for early patent infringement detection during design
 - exploiting images for patent search
 - exploring artificial intelligence in patent analysis strategic potential and technological limitations
+- exploring intellectual property trends in smart cataloguing and classification
 - exploring patents visually an interactive search system for multimodal patent image search and interpretation
 - figure detection and part label extraction from patent drawing images
 - flowchart recognition for non textual information retrieval in patent search
 - flowchart recognition in patent information retrieval
 - focus on lasers and imaging
+- generative ai approach for inventive process visualisation enhancing human ai hybrid understanding and comparing of patents
 - granulometry based detection of junction and end points in patent drawings
 - ground truthed dataset of chemical structure images in japanese published patent applications
 - hardware rooted neural ai safety influence verification and execution finality control for european sovereign ai frontier models and critical infrastructure
@@ -80,6 +88,7 @@
 - mobile based big data design patent image retrieval system via lp norm deep learning approach
 - molparser end to end visual recognition of molecule structures in the wild
 - multi modal chemical information reconstruction from images and texts for exploring the near drug space
+- multi modal knowledge level representation learning for structure oriented patent citation prediction
 - multimodal large model based information retrieval algorithm and its application to patent analysis
 - multimodal patent knowledge graph construction method based on large language models
 - mvpatrec viewpoint aware collaborative attention via textual prompt for multi view patent recognition
@@ -88,6 +97,7 @@
 - patcid an open access dataset of chemical structures in patent documents
 - patdpa an online searchable patent database with display of patent drawing
 - patent citation recommendation based on multimodal content and deep learning
+- patent document similarity based on image analysis using the sift algorithm and ocr text
 - patent figure classification using large vision language models
 - patent image classification using local constrained linear coding and spatial pyramid matching
 - patent image recognition and classification system based on object detection model
@@ -96,6 +106,10 @@
 - patent image retrieval using transformer based deep metric learning
 - patent images a glass encased tool opening the case
 - patent images on cd rom numeric vs classified sets
+- patent informatics the issue of relevance in full text patent document searches
+- patent landscape and emerging trends in biosensors for smart systems
+- patent mining a survey
+- patent retrieval a multi modal visual analytics approach
 - patent retrieval architecture based on document retrieval sketching out the spanish patent landscape
 - patentlmm large multimodal model for generating descriptions for patent figures
 - patentnet a large scale incomplete multiview multimodal multilabel industrial goods image database
@@ -105,6 +119,7 @@
 - patfig generating short and long captions for patent figures
 - patmedia augmenting patent search with content based image retrieval
 - pdtw150k a dataset for patent drawing retrieval
+- predicting commercialization in renewable energy patents a hybrid multimodal framework integrating bert and electra embeddings with gradient boosting
 - proactive ai initiated voice calling and cross modal human ai interaction a unified architecture for autonomous telephone initiation predictive interaction need modeling continuous multimodal communication and general purpose agentic execution
 - pt2pr a benchmark for multimodal patent to product retrieval
 - r groundbench a diagnostic benchmark for r group groundingin markush molecular editing
