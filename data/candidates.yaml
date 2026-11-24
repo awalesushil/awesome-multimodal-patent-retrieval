@@ -1,1 +1,204 @@
-[]
+- title: 3D reconstruction on automobile design patent images
+  authors:
+  - Da Zhang
+  venue: Jisuanji gongcheng yu sheji
+  year: 2014
+  category: image-retrieval
+  url: https://oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=SJSJ201409032
+  added: '2026-11-23'
+- title: Retrieval of Design Patent Images Based on MapReduce Model
+  authors:
+  - Jiangzhong Cao
+  venue: Journal of Chinese Computer Systems
+  year: 2012
+  category: image-retrieval
+  url: https://oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=XXWX201203033
+  added: '2026-11-23'
+- title: Design patent image retrieval system based on semantic classification
+  authors:
+  - Lu Cao
+  venue: Computer Engineering and Applications Journal
+  year: 2012
+  category: figure-understanding
+  url: https://oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=JSGG201216046
+  added: '2026-11-23'
+- title: Image retrieval method for design patent based on multi-feature fusion
+  authors:
+  - Dai Qingyun
+  venue: Computer Engineering and Applications Journal
+  year: 2011
+  category: image-retrieval
+  url: https://oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=JSGG201114051
+  added: '2026-11-23'
+- title: 'PatMamba: Grid-Aware Vision Mamba for Compound Patent Figure Segmentation'
+  authors:
+  - Zheng Ma
+  - Feng Zhang
+  venue: Applied Sciences
+  year: 2026
+  category: chemical-structures
+  url: https://doi.org/10.3390/app162211522
+  doi: 10.3390/app162211522
+  added: '2026-11-23'
+- title: Image retrieval for a design patent based on shape features and texture features
+  authors:
+  - Dai Qingyun
+  venue: Journal of Shandong University
+  year: 2011
+  category: image-retrieval
+  url: https://oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=SDGY201102002
+  added: '2026-11-23'
+- title: 'Proactive AI-Initiated Video Calling for General-Purpose Human–AI Interaction: A Unified Architecture for Autonomous Interaction-Need Prediction, Communication Initiation, Context-Continuous Multimodal Interaction, and Agentic Task Execution'
+  authors:
+  - Jincheng Zhang
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+  year: 2026
+  category: multimodal-search
+  url: https://doi.org/10.5281/zenodo.24053527
+  doi: 10.5281/zenodo.24053527
+  added: '2026-11-23'
+- title: 'Advancing patent law with generative AI: Human-in-the-loop systems for AI-assisted drafting, prior art search, and multimodal IP protection'
+  authors:
+  - Luong Vu Bui
+  venue: World Patent Information
+  year: 2025
+  category: multimodal-search
+  url: https://doi.org/10.1016/j.wpi.2025.102341
+  doi: 10.1016/j.wpi.2025.102341
+  added: '2026-11-23'
+- title: Semantic views — Interactive hierarchical exploration for patent landscaping
+  authors:
+  - Tatyana Skripnikova
+  - Hidir Aras
+  - Anna Weißhaar
+  - Sebastian Blank
+  - Hans-Péter Zorn
+  venue: World Patent Information
+  year: 2021
+  category: tools
+  url: https://doi.org/10.1016/j.wpi.2021.102043
+  doi: 10.1016/j.wpi.2021.102043
+  added: '2026-11-23'
+- title: Towards in-house searching of Markush structures from patents
+  authors:
+  - John M. Barnard
+  - Penny Wright
+  venue: World Patent Information
+  year: 2008
+  category: chemical-structures
+  url: https://doi.org/10.1016/j.wpi.2008.09.012
+  doi: 10.1016/j.wpi.2008.09.012
+  added: '2026-11-23'
+- title: 'Patent Landscape of Generative Networks: A Data-Driven Examination of Essential Concepts Convergence Opportunities and Technological Trends Through Patent Analysis'
+  authors:
+  - Konstantinos Charmanas
+  venue: Research Square
+  year: 2026
+  category: image-retrieval
+  url: https://doi.org/10.21203/rs.3.rs-9446615/v1
+  doi: 10.21203/rs.3.rs-9446615/v1
+  added: '2026-11-23'
+- title: An architecture for visual patent analysis
+  authors:
+  - Mark Giereth
+  venue: OPUS Publication Server of the University of Stuttgart (University of Stuttgart)
+  year: 2012
+  category: image-retrieval
+  url: https://doi.org/10.18419/opus-3008
+  doi: 10.18419/opus-3008
+  added: '2026-11-23'
+- title: Desenvolvimento de um Índice de Infração de Patentes com Apoio de Inteligência Artificial Multimodal
+  authors:
+  - Alaydes Mikaelle De Morais
+  - Cleber Gustavo Dias
+  venue: Navus - Revista de Gestão e Tecnologia
+  year: 2025
+  category: multimodal-search
+  url: https://doi.org/10.22279/navus.v16.2133
+  doi: 10.22279/navus.v16.2133
+  added: '2026-11-23'
+- title: 'Aplicação do índice de infração de patentes usando inteligência artificial multimodal: caso Masimo vs. Apple'
+  authors:
+  - Alaydes Mikaelle De Morais
+  - Cleber Gustavo Dias
+  venue: Derecho y cambio social.
+  year: 2026
+  category: multimodal-search
+  url: https://doi.org/10.54899/dcs.v23i90.5297
+  doi: 10.54899/dcs.v23i90.5297
+  added: '2026-11-23'
+- title: 'Health Monitoring via Wearables: Insights from Scientific Publications and Patents (2015–2024)'
+  authors:
+  - Ivana Campia
+  - Fabrizio Rossi
+  - Laura Avogaro
+  - Amy Heather Hearn
+  - Marco Straccia
+  venue: Research Square
+  year: 2026
+  category: image-retrieval
+  url: https://doi.org/10.21203/rs.3.rs-8742689/v1
+  doi: 10.21203/rs.3.rs-8742689/v1
+  added: '2026-11-23'
+- title: Technology Commercialization Activation Model Using Imagification of Variables
+  authors:
+  - Young-Ho Kim
+  - Sangsung Park
+  - Jiho Kang
+  venue: Applied Sciences
+  year: 2022
+  category: image-retrieval
+  url: https://doi.org/10.3390/app12167994
+  doi: 10.3390/app12167994
+  added: '2026-11-23'
+- title: 'Patent Mining by Extracting Functional Analysis Information Modelled As Graph Structure: A Patent Knowledge-base Collaborative Building Approach'
+  authors:
+  - Manal Helal
+  - Helal, Mohammed E.
+  venue: arXiv
+  year: 2023
+  category: image-retrieval
+  url: https://doi.org/10.48550/arxiv.2305.00309
+  doi: 10.48550/arxiv.2305.00309
+  arxiv: '2305.00309'
+  added: '2026-11-23'
+- title: Graph-Based Patent Mining for Mechanical Designs
+  authors:
+  - Manal Helal
+  - Mohammed Ezzat Helal
+  venue: Unknown venue
+  year: 2024
+  category: image-retrieval
+  url: https://doi.org/10.1109/iceeng58856.2024.10566338
+  doi: 10.1109/iceeng58856.2024.10566338
+  added: '2026-11-23'
+- title: Visual Programming for Patent Mining
+  authors:
+  - Farag Saad
+  - Hidir Aras
+  - Stefan Helfrich
+  venue: PatentSemTech@SEMANTiCS
+  year: 2019
+  category: image-retrieval
+  url: https://repositum.tuwien.at/handle/20.500.12708/828
+  added: '2026-11-23'
+- title: Representation and Searching of Chemical-Structure Information in Patents
+  authors:
+  - John D. Holliday
+  - Peter Willett
+  venue: Current Challenges in Patent Information Retrieval
+  year: 2011
+  category: chemical-structures
+  url: https://doi.org/10.1007/978-3-642-19231-9_17
+  doi: 10.1007/978-3-642-19231-9_17
+  added: '2026-11-23'
+- title: A Multimodal Approach for Semantic Patent Image Retrieval
+  authors:
+  - Kader Pustu-Iren
+  - Gerrit Bruns
+  - Ralph Ewerth
+  venue: PatentSemTech
+  year: 2021
+  category: multimodal-search
+  url: https://ceur-ws.org/Vol-2909/paper6.pdf
+  added: '2026-11-23'
